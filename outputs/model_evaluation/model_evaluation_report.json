@@ -1,0 +1,258 @@
+[
+  {
+    "video_name": "create_a_video_on_asad_ullah_f.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "total_frames": 240,
+    "duration_sec": 10.0,
+    "total_windows": 29,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.4336,
+    "avg_probabilities": {
+      "Normal": 0.1661,
+      "Violence": 0.0187,
+      "Robbery": 0.4336,
+      "Shooting": 0.0418,
+      "FireExplosion": 0.1383,
+      "Accident": 0.1114,
+      "Vandalism": 0.0902
+    },
+    "class_distribution_window_counts": {
+      "Normal": 0,
+      "Violence": 0,
+      "Robbery": 27,
+      "Shooting": 0,
+      "FireExplosion": 0,
+      "Accident": 0,
+      "Vandalism": 2
+    },
+    "crime_detected": true,
+    "crime_windows_count": 19,
+    "crime_windows_pct": 65.52
+  },
+  {
+    "video_name": "drone.mp4",
+    "width": 360,
+    "height": 640,
+    "fps": 30.0,
+    "total_frames": 232,
+    "duration_sec": 7.73,
+    "total_windows": 28,
+    "overall_predicted_class": "Normal",
+    "overall_confidence": 0.3859,
+    "avg_probabilities": {
+      "Normal": 0.3859,
+      "Violence": 0.0198,
+      "Robbery": 0.2035,
+      "Shooting": 0.0324,
+      "FireExplosion": 0.1628,
+      "Accident": 0.1292,
+      "Vandalism": 0.0664
+    },
+    "class_distribution_window_counts": {
+      "Normal": 20,
+      "Violence": 0,
+      "Robbery": 6,
+      "Shooting": 0,
+      "FireExplosion": 1,
+      "Accident": 0,
+      "Vandalism": 1
+    },
+    "crime_detected": false,
+    "crime_windows_count": 0,
+    "crime_windows_pct": 0.0
+  },
+  {
+    "video_name": "hello.mp4",
+    "width": 640,
+    "height": 360,
+    "fps": 29.97002997002997,
+    "total_frames": 2386,
+    "duration_sec": 79.61,
+    "total_windows": 297,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.5803,
+    "avg_probabilities": {
+      "Normal": 0.0663,
+      "Violence": 0.0428,
+      "Robbery": 0.5803,
+      "Shooting": 0.0761,
+      "FireExplosion": 0.1283,
+      "Accident": 0.0746,
+      "Vandalism": 0.0315
+    },
+    "class_distribution_window_counts": {
+      "Normal": 2,
+      "Violence": 0,
+      "Robbery": 274,
+      "Shooting": 9,
+      "FireExplosion": 8,
+      "Accident": 4,
+      "Vandalism": 0
+    },
+    "crime_detected": true,
+    "crime_windows_count": 244,
+    "crime_windows_pct": 82.15
+  },
+  {
+    "video_name": "hello1.mp4",
+    "width": 768,
+    "height": 432,
+    "fps": 25.0,
+    "total_frames": 2047,
+    "duration_sec": 81.88,
+    "total_windows": 254,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.2783,
+    "avg_probabilities": {
+      "Normal": 0.1814,
+      "Violence": 0.0436,
+      "Robbery": 0.2783,
+      "Shooting": 0.1139,
+      "FireExplosion": 0.2051,
+      "Accident": 0.147,
+      "Vandalism": 0.0307
+    },
+    "class_distribution_window_counts": {
+      "Normal": 31,
+      "Violence": 0,
+      "Robbery": 135,
+      "Shooting": 14,
+      "FireExplosion": 52,
+      "Accident": 22,
+      "Vandalism": 0
+    },
+    "crime_detected": true,
+    "crime_windows_count": 55,
+    "crime_windows_pct": 21.65
+  },
+  {
+    "video_name": "hello2.mp4",
+    "width": 360,
+    "height": 640,
+    "fps": 30.0,
+    "total_frames": 449,
+    "duration_sec": 14.97,
+    "total_windows": 55,
+    "overall_predicted_class": "Vandalism",
+    "overall_confidence": 0.2883,
+    "avg_probabilities": {
+      "Normal": 0.1044,
+      "Violence": 0.0112,
+      "Robbery": 0.2102,
+      "Shooting": 0.0329,
+      "FireExplosion": 0.2442,
+      "Accident": 0.1087,
+      "Vandalism": 0.2883
+    },
+    "class_distribution_window_counts": {
+      "Normal": 1,
+      "Violence": 0,
+      "Robbery": 12,
+      "Shooting": 0,
+      "FireExplosion": 13,
+      "Accident": 0,
+      "Vandalism": 29
+    },
+    "crime_detected": true,
+    "crime_windows_count": 17,
+    "crime_windows_pct": 30.91
+  },
+  {
+    "video_name": "hello3.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "total_frames": 240,
+    "duration_sec": 10.0,
+    "total_windows": 29,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.4161,
+    "avg_probabilities": {
+      "Normal": 0.1269,
+      "Violence": 0.025,
+      "Robbery": 0.4161,
+      "Shooting": 0.0185,
+      "FireExplosion": 0.1728,
+      "Accident": 0.1487,
+      "Vandalism": 0.0919
+    },
+    "class_distribution_window_counts": {
+      "Normal": 0,
+      "Violence": 0,
+      "Robbery": 26,
+      "Shooting": 0,
+      "FireExplosion": 1,
+      "Accident": 1,
+      "Vandalism": 1
+    },
+    "crime_detected": true,
+    "crime_windows_count": 19,
+    "crime_windows_pct": 65.52
+  },
+  {
+    "video_name": "hello4.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "total_frames": 240,
+    "duration_sec": 10.0,
+    "total_windows": 29,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.3529,
+    "avg_probabilities": {
+      "Normal": 0.213,
+      "Violence": 0.025,
+      "Robbery": 0.3529,
+      "Shooting": 0.0531,
+      "FireExplosion": 0.132,
+      "Accident": 0.1891,
+      "Vandalism": 0.0348
+    },
+    "class_distribution_window_counts": {
+      "Normal": 3,
+      "Violence": 0,
+      "Robbery": 23,
+      "Shooting": 0,
+      "FireExplosion": 0,
+      "Accident": 3,
+      "Vandalism": 0
+    },
+    "crime_detected": true,
+    "crime_windows_count": 7,
+    "crime_windows_pct": 24.14
+  },
+  {
+    "video_name": "hello5.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "total_frames": 240,
+    "duration_sec": 10.0,
+    "total_windows": 29,
+    "overall_predicted_class": "Robbery",
+    "overall_confidence": 0.5448,
+    "avg_probabilities": {
+      "Normal": 0.1346,
+      "Violence": 0.0105,
+      "Robbery": 0.5448,
+      "Shooting": 0.0179,
+      "FireExplosion": 0.0656,
+      "Accident": 0.1322,
+      "Vandalism": 0.0944
+    },
+    "class_distribution_window_counts": {
+      "Normal": 0,
+      "Violence": 0,
+      "Robbery": 29,
+      "Shooting": 0,
+      "FireExplosion": 0,
+      "Accident": 0,
+      "Vandalism": 0
+    },
+    "crime_detected": true,
+    "crime_windows_count": 29,
+    "crime_windows_pct": 100.0
+  }
+]

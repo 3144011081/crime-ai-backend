@@ -1,0 +1,35 @@
+[
+  {
+    "video_name": "shooting.mp4",
+    "width": 360,
+    "height": 640,
+    "fps": 30.0,
+    "total_frames": 507,
+    "duration_sec": 16.9,
+    "processing_time_sec": 62.53,
+    "total_windows": 125,
+    "overall_predicted_class": "Violence",
+    "overall_confidence": 0.5414,
+    "avg_probabilities": {
+      "Normal": 0.2299,
+      "Violence": 0.5414,
+      "Robbery": 0.0817,
+      "Shooting": 0.0093,
+      "FireExplosion": 0.0543,
+      "Accident": 0.0568,
+      "Vandalism": 0.0266
+    },
+    "class_distribution_window_counts": {
+      "Normal": 31,
+      "Violence": 94,
+      "Robbery": 0,
+      "Shooting": 0,
+      "FireExplosion": 0,
+      "Accident": 0,
+      "Vandalism": 0
+    },
+    "crime_detected": true,
+    "crime_windows_count": 74,
+    "crime_windows_pct": 59.2
+  }
+]

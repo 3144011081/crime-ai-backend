@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerial Surveillance & Crime Detection Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">🚁</div>
+                <div>
+                    <h2>CrimeAI</h2>
+                    <span>Aerial Surveillance AI Monitor</span>
+                </div>
+            </div>
+
+            <nav>
+                <a href="{{ url_for('index') }}"
+                    class="nav-item {% if page == 'dashboard' or page is not defined %}active{% endif %}">
+                    <span>▣</span> Dashboard
+                </a>
+                <a href="{{ url_for('detection') }}" class="nav-item {% if page == 'detection' %}active{% endif %}">
+                    <span>◉</span> Detection Feed
+                </a>
+                <a href="{{ url_for('reports') }}" class="nav-item {% if page == 'reports' %}active{% endif %}">
+                    <span>▤</span> Audit Reports
+                </a>
+            </nav>
+
+            <!-- MODEL & DETECTION SETTINGS -->
+            <div class="sidebar-section">
+                <h3>⚙️ Model & Detection Settings</h3>
+
+                <div class="form-group">
+                    <label for="checkpointPath">Checkpoint Path (.pth)</label>
+                    <input type="text" id="checkpointPath" class="form-input"
+                        value="/models/crime_aerial_augmented_best1.pth" readonly>
+                </div>
+
+                <div class="form-group">
+                    <div class="slider-header">
+                        <label for="confSlider">Alert Confidence Threshold (%)</label>
+                        <span class="slider-value" id="confVal">35%</span>
+                    </div>
+                    <input type="range" id="confSlider" class="form-slider" min="10" max="95" value="35"
+                        oninput="document.getElementById('confVal').innerText = this.value + '%'">
+                </div>
+
+                <div class="form-group">
+                    <div class="slider-header">
+                        <label for="strideSlider">Temporal Sliding Window Stride (Frames)</label>
+                        <span class="slider-value" id="strideVal">8</span>
+                    </div>
+                    <input type="range" id="strideSlider" class="form-slider" min="1" max="32" value="8"
+                        oninput="document.getElementById('strideVal').innerText = this.value">
+                </div>
+            </div>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                <div>
+                    <strong>System Online</strong>
+                    <small>AI Engine Ready</small>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- MAIN DASHBOARD -->
+        <main class="main">
+
+            <!-- HEADER BANNER -->
+            <header class="header-banner">
+                <h1>🚁 Aerial Surveillance & Crime Detection Dashboard</h1>
+                <p>Real-time Spatio-Temporal Video Analysis powered by R(2+1)D-18 & 2-Stage AI</p>
+            </header>
+
+            <!-- UPLOAD SECTION -->
+            <section class="upload-card">
+                <div class="upload-title">Upload Drone/Aerial Video (.mp4, .avi, .mov)</div>
+
+                {% if error %}
+                <div
+                    style="background: #fee2e2; color: #991b1b; padding: 10px 16px; border-radius: 8px; margin-bottom: 14px; font-size: 13px; font-weight: 600;">
+                    ⚠️ {{ error }}</div>
+                {% endif %}
+
+                <form action="/upload" method="POST" enctype="multipart/form-data" id="uploadForm">
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: stretch;">
+                        <!-- Custom File Upload -->
+                        <div class="upload-area" onclick="document.getElementById('videoFileInput').click()" style="margin: 0;">
+                            <div class="upload-icon-box">📹</div>
+                            <div id="fileUploadLabel">{% if filename %}Uploaded: <strong>{{ filename }}</strong>{% else %}Click or drag & drop video file{% endif %}</div>
+                            <input type="file" name="video" id="videoFileInput" accept="video/*" onchange="handleFileSelected(this)">
+                        </div>
+
+                        <!-- Sample Video Selector -->
+                        <div style="background: #f8fafc; border: 2px dashed #cbd5e1; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                            <div style="font-size: 28px; margin-bottom: 6px;">📂</div>
+                            <label for="sampleVideoSelect" style="font-size: 13px; font-weight: 600; color: #475569; margin-bottom: 8px;">Or Choose Sample Video</label>
+                            <select name="sample_video" id="sampleVideoSelect" class="form-input" style="width: 100%; max-width: 280px; padding: 8px 12px; border-radius: 8px; border: 1px solid #cbd5e1; background: white;" onchange="handleSampleSelected(this)">
+                                <option value="">-- Select a sample video --</option>
+                                {% for v in videos %}
+                                <option value="{{ v }}" {% if filename == v %}selected{% endif %}>{{ v }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="selectedPillContainer" {% if not filename %}hidden{% endif %}>
+                        <div class="file-info-pill">
+                            <span id="selectedFileName">{% if filename %}{{ filename }}{% else %}video.mp4{% endif %}</span>
+                            <span class="remove-file" onclick="clearSelectedFile()">&times;</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 14px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                        <button type="submit" class="btn-primary-red" style="margin-left: auto;">
+                            🚀 Start Aerial Surveillance Analysis
+                        </button>
+                    </div>
+
+                    <div id="processingProgressContainer" style="display: none; margin-top: 18px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; color: #2563eb; margin-bottom: 6px;">
+                            <span id="progressText">Processing Video... 0%</span>
+                            <span>3-Model AI Architecture</span>
+                        </div>
+                        <div style="background: #e2e8f0; height: 10px; border-radius: 5px; overflow: hidden; position: relative;">
+                            <div id="progressBarFill" style="background: linear-gradient(90deg, #2563eb, #ef4444); width: 0%; height: 100%; transition: width 0.3s ease;"></div>
+                        </div>
+                        <div id="progressStatusText" style="font-size: 12px; color: #64748b; margin-top: 6px;">⚙️ <strong>Pipeline Status</strong>: Initializing 3-Model AI Engine...</div>
+                    </div>
+                </form>
+            </section>
+
+            <!-- VIDEO SOURCE -->
+            <section class="video-section">
+                <h3 class="section-title">📹 Video Source</h3>
+                <div class="video-player-container">
+                    {% if filename %}
+                    <video id="sourceVideo" controls preload="metadata" style="width:100%; display:block;">
+                        <source src="{{ url_for('video_file', filename=filename) }}" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                    {% else %}
+                    <div style="padding: 48px; text-align: center; color: #94a3b8;">
+                        <div style="font-size: 48px; margin-bottom: 12px;">📹</div>
+                        <p>Upload a video above to preview it here</p>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if report %}
+                {% set conf_pct = (report.confidence * 100) | round(1) %}
+                {% if report.crime %}
+                <!-- CRIME ALERT BOX -->
+                <div style="
+                    margin-top: 14px;
+                    background: linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%);
+                    border: 2px solid #ef4444;
+                    border-radius: 12px;
+                    padding: 18px 22px;
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    box-shadow: 0 4px 20px rgba(220,38,38,0.45);
+                ">
+                    <div style="font-size: 44px; line-height: 1;">🚨</div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #fca5a5; text-transform: uppercase; margin-bottom: 4px;">⚠ CRIME DETECTED — ALERT</div>
+                        <div style="font-size: 26px; font-weight: 900; color: #ffffff; letter-spacing: 0.5px;">{{ report.type }}</div>
+                        <div style="margin-top: 8px; display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 13px; color: #fecaca; font-weight: 600;">Confidence:</span>
+                            <div style="flex: 1; background: rgba(255,255,255,0.15); border-radius: 6px; height: 10px; overflow: hidden; max-width: 220px;">
+                                <div style="background: linear-gradient(90deg, #fbbf24, #ef4444); width: {{ conf_pct }}%; height: 100%; border-radius: 6px;"></div>
+                            </div>
+                            <span style="font-size: 20px; font-weight: 900; color: #fbbf24;">{{ conf_pct }}%</span>
+                        </div>
+                    </div>
+                    <div style="text-align: center; background: rgba(0,0,0,0.3); border-radius: 10px; padding: 10px 16px; min-width: 80px;">
+                        <div style="font-size: 11px; color: #fca5a5; font-weight: 700; text-transform: uppercase;">Crime Prob.</div>
+                        <div style="font-size: 22px; font-weight: 900; color: #ffffff;">{{ (report.crime_probability * 100) | round(1) }}%</div>
+                    </div>
+                </div>
+                {% else %}
+                <!-- SAFE / NORMAL BANNER -->
+                <div style="
+                    margin-top: 14px;
+                    background: linear-gradient(135deg, #14532d 0%, #16a34a 100%);
+                    border: 2px solid #22c55e;
+                    border-radius: 12px;
+                    padding: 16px 22px;
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    box-shadow: 0 4px 16px rgba(34,197,94,0.30);
+                ">
+                    <div style="font-size: 40px; line-height: 1;">✅</div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #86efac; text-transform: uppercase; margin-bottom: 4px;">Scene Analysis Complete</div>
+                        <div style="font-size: 22px; font-weight: 800; color: #ffffff;">Normal — No Crime Detected</div>
+                        <div style="font-size: 13px; color: #bbf7d0; margin-top: 4px; font-weight: 600;">Confidence: {{ conf_pct }}%</div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endif %}
+
+            </section>
+
+            <!-- REAL-TIME DETECTION FEED & INCIDENT STATISTICS -->
+            <div class="dashboard-grid">
+
+                <!-- LEFT: DETECTION FEED -->
+                <div class="card-panel">
+                    <h3 class="section-title">🎯 Real-Time Detection Feed</h3>
+                    <div class="video-player-container">
+                        {% if report and report.output_video %}
+                        <video controls autoplay loop style="width:100%; display:block;">
+                            <source src="{{ url_for('output_file', filename=report.output_video) }}" type="video/mp4">
+                        </video>
+                        {% else %}
+                        <div style="padding: 48px; text-align: center; color: #94a3b8;">
+                            <div style="font-size: 36px; margin-bottom: 8px;">🎯</div>
+                            <p>Annotated video will appear here after analysis</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- RIGHT: INCIDENT STATISTICS -->
+                <div class="card-panel">
+                    <h3 class="section-title">📊 Incident Statistics</h3>
+
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span>Total Windows</span>
+                            <strong>{% if report and report.window_audits %}{{ report.window_audits | length }}{% else
+                                %}0{% endif %}</strong>
+                        </div>
+
+                        <div class="stat-box">
+                            <span>Alerts Triggered</span>
+                            <strong>{% if report %}{{ report.crime_clips | length if report.crime_clips else (1 if
+                                report.crime else 0) }}{% else %}0{% endif %}</strong>
+                            <div class="event-badge">↑ {% if report %}{{ report.crime_clips | length if
+                                report.crime_clips else (1 if report.crime else 0) }}{% else %}0{% endif %} events</div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-title">Incident Distribution</div>
+                        {% set robbery_h = '90%' if (report and report.type == 'Robbery') else '75%' %}
+                        {% set violence_h = '80%' if (report and report.type == 'Violence') else '15%' %}
+                        {% set shooting_h = '70%' if (report and report.type == 'Shooting') else '10%' %}
+                        {% set fire_h = '85%' if (report and report.type == 'FireExplosion') else '20%' %}
+                        {% set accident_h = '65%' if (report and report.type == 'Accident') else '12%' %}
+                        <div class="bar-chart">
+                            <div class="bar-col">
+                                <div class="bar-fill" data-fill="{{ robbery_h }}"></div>
+                                <div class="bar-label">Robbery / Theft</div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="bar-fill" data-fill="{{ violence_h }}"></div>
+                                <div class="bar-label">Violence</div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="bar-fill" data-fill="{{ shooting_h }}"></div>
+                                <div class="bar-label">Shooting</div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="bar-fill" data-fill="{{ fire_h }}"></div>
+                                <div class="bar-label">Fire/Explosion</div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="bar-fill" data-fill="{{ accident_h }}"></div>
+                                <div class="bar-label">Accident</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CHRONOLOGICAL SURVEILLANCE AUDIT LOG -->
+            <section class="table-section">
+                <h3 class="section-title">📋 Chronological Surveillance Audit Log</h3>
+
+                <div class="table-wrapper">
+                    <table id="auditTable">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Timestamp</th>
+                                <th>Seconds</th>
+                                <th>Classification</th>
+                                <th>Confidence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if report and report.window_audits %}
+                            {% for item in report.window_audits %}
+                            <tr>
+                                <td>{{ item.id }}</td>
+                                <td>{{ item.timestamp }}</td>
+                                <td>{{ item.seconds }}</td>
+                                <td><span
+                                        class="{% if item.classification != 'Normal' %}badge-crime{% else %}badge-normal{% endif %}">{{
+                                        item.classification }}</span></td>
+                                <td>{{ item.confidence }}%</td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="5" style="text-align: center; color: #888; padding: 24px;">Upload and
+                                    analyze a video to see the audit log</td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <button type="button" class="btn-secondary" onclick="downloadCSVAuditLog()">
+                    📥 Download CSV Audit Log
+                </button>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.bar-fill[data-fill]').forEach(function (el) {
+                el.style.height = el.getAttribute('data-fill');
+            });
+
+            const uploadForm = document.getElementById('uploadForm');
+            if (uploadForm) {
+                uploadForm.addEventListener('submit', function() {
+                    const container = document.getElementById('processingProgressContainer');
+                    const fill = document.getElementById('progressBarFill');
+                    const text = document.getElementById('progressText');
+                    const statusText = document.getElementById('progressStatusText');
+                    if (container && fill && text && statusText) {
+                        container.style.display = 'block';
+                        let pct = 0;
+                        const interval = setInterval(function() {
+                            if (pct < 92) {
+                                pct += (95 - pct) * 0.04;
+                                fill.style.width = pct.toFixed(1) + '%';
+                                text.innerText = 'Processing Video... ' + Math.round(pct) + '%';
+                                if (pct < 20) {
+                                    statusText.innerHTML = '⚙️ <strong>Pipeline Status</strong>: Initializing 3-Model AI ConvNet & YOLO Engines...';
+                                } else if (pct < 55) {
+                                    statusText.innerHTML = '⚙️ <strong>Pipeline Status</strong>: Classifying Spatio-Temporal Sliding Windows...';
+                                } else if (pct < 78) {
+                                    statusText.innerHTML = '⚙️ <strong>Pipeline Status</strong>: Evaluating Multi-Scale Pixel ROI Zooming...';
+                                } else {
+                                    statusText.innerHTML = '⚙️ <strong>Pipeline Status</strong>: Extracting Crime Evidence Clips & Generating HUD...';
+                                }
+                            }
+                        }, 350);
+                    }
+                });
+            }
+        });
+
+        function handleFileSelected(input) {
+            if (input.files && input.files[0]) {
+                const file = input.files[0];
+                document.getElementById('selectedFileName').innerText = file.name + ' (' + (file.size / (1024 * 1024)).toFixed(1) + 'MB)';
+                document.getElementById('selectedPillContainer').removeAttribute('hidden');
+                document.getElementById('selectedPillContainer').style.display = 'block';
+
+                // Reset sample video dropdown if file uploaded
+                const sampleSelect = document.getElementById('sampleVideoSelect');
+                if (sampleSelect) sampleSelect.value = '';
+
+                // Update Video Source preview
+                const url = URL.createObjectURL(file);
+                const video = document.getElementById('sourceVideo');
+                if (video) {
+                    video.src = url;
+                    video.load();
+                }
+            }
+        }
+
+        function handleSampleSelected(select) {
+            if (select.value) {
+                // Clear custom file input if sample video selected
+                clearSelectedFile();
+                const video = document.getElementById('sourceVideo');
+                if (video) {
+                    video.src = '/video_file/' + encodeURIComponent(select.value);
+                    video.load();
+                }
+            }
+        }
+
+        function clearSelectedFile() {
+            const fileInput = document.getElementById('videoFileInput');
+            if (fileInput) fileInput.value = '';
+            const pill = document.getElementById('selectedPillContainer');
+            if (pill) {
+                pill.setAttribute('hidden', '');
+                pill.style.display = 'none';
+            }
+        }
+
+        function downloadCSVAuditLog() {
+            const table = document.getElementById('auditTable');
+            let csv = [];
+            for (let row of table.rows) {
+                let cols = Array.from(row.cells).map(cell => '"' + cell.innerText.replace(/"/g, '""') + '"');
+                csv.push(cols.join(','));
+            }
+            const blob = new Blob([csv.join('\n')], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.setAttribute('hidden', '');
+            a.setAttribute('href', url);
+            a.setAttribute('download', 'surveillance_audit_log.csv');
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+
+</body>
+
+</html>

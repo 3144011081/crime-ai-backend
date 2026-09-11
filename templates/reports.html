@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Reports - Aerial Surveillance AI Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🚁</div>
+            <div>
+                <h2>CrimeAI</h2>
+                <span>Aerial Surveillance AI Monitor</span>
+            </div>
+        </div>
+
+        <nav>
+            <a href="{{ url_for('index') }}" class="nav-item">
+                <span>▣</span> Dashboard
+            </a>
+            <a href="{{ url_for('detection') }}" class="nav-item">
+                <span>◉</span> Detection Feed
+            </a>
+            <a href="{{ url_for('reports') }}" class="nav-item active">
+                <span>▤</span> Audit Reports
+            </a>
+        </nav>
+
+        <!-- MODEL & DETECTION SETTINGS -->
+        <div class="sidebar-section">
+            <h3>⚙️ Model & Detection Settings</h3>
+
+            <div class="form-group">
+                <label for="checkpointPath">Checkpoint Path (.pth)</label>
+                <input type="text" id="checkpointPath" class="form-input" value="/models/crime_aerial_augmented_best1.pth" readonly>
+            </div>
+
+            <div class="form-group">
+                <div class="slider-header">
+                    <label for="confSlider">Alert Confidence Threshold (%)</label>
+                    <span class="slider-value" id="confVal">35%</span>
+                </div>
+                <input type="range" id="confSlider" class="form-slider" min="10" max="95" value="35" oninput="document.getElementById('confVal').innerText = this.value + '%'">
+            </div>
+
+            <div class="form-group">
+                <div class="slider-header">
+                    <label for="strideSlider">Temporal Sliding Window Stride (Frames)</label>
+                    <span class="slider-value" id="strideVal">8</span>
+                </div>
+                <input type="range" id="strideSlider" class="form-slider" min="1" max="32" value="8" oninput="document.getElementById('strideVal').innerText = this.value">
+            </div>
+        </div>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            <div>
+                <strong>System Online</strong>
+                <small>AI Engine Ready</small>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- HEADER BANNER -->
+        <header class="header-banner">
+            <h1>▤ Chronological Surveillance Audit Logs</h1>
+            <p>Historical Crime Analysis & Detection Telemetry Reports</p>
+        </header>
+
+        {% if reports %}
+            <div class="report-list">
+                {% for report in reports %}
+                    <div class="card-panel" style="margin-bottom: 16px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <h3 class="section-title" style="margin-bottom: 0;">{{ report.name }}</h3>
+                            {% if report.crime %}
+                                <span class="badge-crime">CRIME DETECTED: {{ report.type }}</span>
+                            {% else %}
+                                <span class="badge-normal">NORMAL</span>
+                            {% endif %}
+                        </div>
+                        
+                        <p style="margin: 6px 0; font-size: 13px;">Classification: <strong>{{ report.type }}</strong></p>
+                        <p style="margin: 6px 0; font-size: 13px;">Confidence: <strong>{{ (report.confidence * 100) | round(2) }}%</strong></p>
+                        <p style="margin: 6px 0; font-size: 13px;">Entities: 👤 {{ report.people_count }} People | 🚗 {{ report.vehicle_count }} Vehicles | ⚠️ {{ report.weapon_count }} Weapons</p>
+                        
+                        {% if report.detected_activities %}
+                            <p style="margin: 6px 0; font-size: 13px;">Activities: {{ report.detected_activities | join(', ') }}</p>
+                        {% endif %}
+                        
+                        <p style="margin: 8px 0 12px; font-size: 13px; color: var(--text-muted);">{{ report.description }}</p>
+                        
+                        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                            {% if report.crime_clips %}
+                                {% for clip in report.crime_clips %}
+                                    <a class="btn-secondary" href="{{ url_for('output_file', filename='evidence/' + clip) }}" style="text-decoration: none;">🎬 Evidence: {{ clip }}</a>
+                                {% endfor %}
+                            {% endif %}
+                            
+                            {% if report.video %}
+                                <a class="btn-primary-red" href="{{ url_for('output_file', filename=report.video) }}" style="text-decoration: none; padding: 6px 16px; font-size: 12px;">View Annotated Video</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="card-panel" style="text-align: center; padding: 40px;">
+                <p style="color: var(--text-muted); font-size: 14px;">No saved audit reports yet. Upload a video on the dashboard to generate reports.</p>
+            </div>
+        {% endif %}
+
+    </main>
+
+</div>
+
+</body>
+</html>

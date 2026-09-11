@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Python cache & virtual environments
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Node.js
+frontend/node_modules/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

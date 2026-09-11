@@ -1,0 +1,46 @@
+name: Frontend CI (Vercel Build Check)
+
+on:
+  push:
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend-ci.yml'
+  pull_request:
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend-ci.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-verify:
+    name: Build React + Vite SPA
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'frontend/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci || npm install
+
+      - name: Typecheck and Build
+        working-directory: ./frontend
+        run: npm run build
+
+      - name: Verify build artifacts
+        working-directory: ./frontend
+        run: |
+          if [ -f "dist/index.html" ]; then
+            echo "✅ Build verified successfully! Ready for Vercel deployment."
+          else
+            echo "❌ dist/index.html not found!"
+            exit 1
+          fi

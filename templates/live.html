@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Detection - Aerial Surveillance AI Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🚁</div>
+            <div>
+                <h2>CrimeAI</h2>
+                <span>Aerial Surveillance AI Monitor</span>
+            </div>
+        </div>
+
+        <nav>
+            <a href="{{ url_for('index') }}" class="nav-item">
+                <span>▣</span> Dashboard
+            </a>
+            <a href="{{ url_for('detection') }}" class="nav-item active">
+                <span>◉</span> Real-Time Detection Feed
+            </a>
+            <a href="{{ url_for('reports') }}" class="nav-item">
+                <span>▤</span> Audit Reports
+            </a>
+        </nav>
+
+        <!-- MODEL & DETECTION SETTINGS -->
+        <div class="sidebar-section">
+            <h3>⚙️ Model & Detection Settings</h3>
+
+            <div class="form-group">
+                <label for="checkpointPath">Checkpoint Path (.pth)</label>
+                <input type="text" id="checkpointPath" class="form-input" value="/models/crime_aerial_augmented_best1.pth" readonly>
+            </div>
+
+            <div class="form-group">
+                <div class="slider-header">
+                    <label for="confSlider">Alert Confidence Threshold (%)</label>
+                    <span class="slider-value" id="confVal">35%</span>
+                </div>
+                <input type="range" id="confSlider" class="form-slider" min="10" max="95" value="35" oninput="document.getElementById('confVal').innerText = this.value + '%'">
+            </div>
+
+            <div class="form-group">
+                <div class="slider-header">
+                    <label for="strideSlider">Temporal Sliding Window Stride (Frames)</label>
+                    <span class="slider-value" id="strideVal">8</span>
+                </div>
+                <input type="range" id="strideSlider" class="form-slider" min="1" max="32" value="8" oninput="document.getElementById('strideVal').innerText = this.value">
+            </div>
+        </div>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            <div>
+                <strong>System Online</strong>
+                <small>AI Engine Active</small>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- HEADER BANNER -->
+        <header class="header-banner" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h1>🎯 Real-Time Detection Feed</h1>
+                <p>Live Spatio-Temporal Video Analysis & Multi-Entity ByteTrack HUD</p>
+            </div>
+            <div>
+                <a href="{{ url_for('index') }}" class="btn-secondary" style="text-decoration: none;">
+                    ← Back to Dashboard
+                </a>
+            </div>
+        </header>
+
+        <!-- VIDEO SECTION -->
+        {% if filename %}
+        <section class="video-section">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h3 class="section-title" style="margin-bottom: 0;">📹 Live Stream Video Source — {{ filename }}</h3>
+                <span class="event-badge" style="background: #d1e7dd; color: #0f5132;">ANALYZING FEED</span>
+            </div>
+
+            <div class="video-player-container">
+                <img class="live-video" src="{{ url_for('live_video', filename=filename) }}" style="width: 100%; display: block;">
+            </div>
+        </section>
+        {% else %}
+        <section class="card-panel" style="text-align: center; padding: 48px;">
+            <div style="font-size: 48px; margin-bottom: 12px;">📹</div>
+            <p style="color: var(--text-muted);">No video selected. <a href="{{ url_for('index') }}" style="color: var(--primary-blue);">Upload a video</a> from the Dashboard to start live analysis.</p>
+        </section>
+        {% endif %}
+
+        {% if report %}
+        <section class="card-panel" style="margin-bottom: 24px;">
+            <h3 class="section-title">📊 2-Stage AI Detection Summary</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div>
+                    <p style="margin-bottom: 8px;"><strong>Crime Status:</strong> 
+                        {% if report.crime %}
+                            <span class="badge-crime">CRIME DETECTED: {{ report.type }}</span>
+                        {% else %}
+                            <span class="badge-normal">NORMAL (No Crime Detected)</span>
+                        {% endif %}
+                    </p>
+                    <p style="margin-bottom: 8px;"><strong>Description:</strong> {{ report.description }}</p>
+                    <p style="margin-bottom: 8px;"><strong>Classification:</strong> {{ report.type }}</p>
+                    <p style="margin-bottom: 8px;"><strong>Confidence:</strong> {{ (report.confidence * 100) | round(2) }}%</p>
+                    <p style="margin-bottom: 8px;"><strong>Crime Probability:</strong> {{ (report.crime_probability * 100) | round(2) }}%</p>
+                </div>
+                <div>
+                    <p style="margin-bottom: 8px;"><strong>Stage 1 Entities:</strong> People: {{ report.people_count }} | Vehicles: {{ report.vehicle_count }} | Weapons: {{ report.weapon_count }}</p>
+                    {% if report.acquisition_mode and report.acquisition_mode != 'original' %}
+                    <p style="margin-bottom: 8px;"><strong>Acquisition Mode:</strong>
+                        <span style="background: #dbeafe; color: #1e40af; padding: 2px 10px; border-radius: 12px; font-weight: 700; font-size: 11px;">🔍 Adaptive Zoom ({{ report.acquisition_mode }})</span>
+                    </p>
+                    {% else %}
+                    <p style="margin-bottom: 8px;"><strong>Acquisition Mode:</strong>
+                        <span style="background: #d1e7dd; color: #0f5132; padding: 2px 10px; border-radius: 12px; font-weight: 700; font-size: 11px;">Original View</span>
+                    </p>
+                    {% endif %}
+                    {% if report.detected_activities %}
+                    <p style="margin-bottom: 8px;"><strong>Activities & Behaviors:</strong> {{ report.detected_activities | join(', ') }}</p>
+                    {% endif %}
+                    {% if report.crime_clips %}
+                    <p style="margin-bottom: 8px;"><strong>Crime Clips:</strong> 
+                        {% for clip in report.crime_clips %}
+                            <a href="{{ url_for('output_file', filename='evidence/' + clip) }}" style="color: var(--primary-blue);">{{ clip }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+                    {% if report.output_video %}
+                    <p style="margin-bottom: 8px;"><strong>Annotated Output:</strong> 
+                        <a href="{{ url_for('output_file', filename=report.output_video) }}" style="color: var(--primary-blue); font-weight:700;">View Full Result</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- STATS ROW -->
+        <div class="stats-row">
+            <div class="stat-box">
+                <span>People Detected</span>
+                <strong>{% if report %}{{ report.people_count }}{% else %}0{% endif %}</strong>
+            </div>
+
+            <div class="stat-box">
+                <span>Vehicles Detected</span>
+                <strong>{% if report %}{{ report.vehicle_count }}{% else %}0{% endif %}</strong>
+            </div>
+
+            <div class="stat-box">
+                <span>Weapons Detected</span>
+                <strong>{% if report %}{{ report.weapon_count }}{% else %}0{% endif %}</strong>
+            </div>
+
+            <div class="stat-box">
+                <span>6 Crime Classes</span>
+                <strong style="font-size: 16px;">Violence, Robbery, Shooting, Fire, Accident, Vandalism</strong>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+[
+  {
+    "video": "accident.mp4",
+    "expected": "Accident",
+    "raw_3d_dominant": "Robbery (38.5%)",
+    "raw_3d_windows": {
+      "Violence": 53,
+      "Robbery": 243,
+      "Normal": 73,
+      "Accident": 5
+    },
+    "fused_dominant_crime": "Accident",
+    "fused_windows": {
+      "Accident": 353,
+      "Violence": 6,
+      "Robbery": 8,
+      "Vandalism": 7
+    },
+    "video_level_verdict": "Robbery (70.0%)",
+    "video_fused_reason": "Robbery (Knife Threat / Snatch)",
+    "people_detected": true,
+    "vehicles_detected": true,
+    "weapons_detected": [
+      "Blade"
+    ],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "167.0s",
+    "status": "PASSED \u2713"
+  },
+  {
+    "video": "fireexplosion.mp4",
+    "expected": "FireExplosion",
+    "raw_3d_dominant": "Normal (46.5%)",
+    "raw_3d_windows": {
+      "Robbery": 76,
+      "Normal": 108,
+      "Accident": 1,
+      "Violence": 27,
+      "Vandalism": 16
+    },
+    "fused_dominant_crime": "FireExplosion",
+    "fused_windows": {
+      "FireExplosion": 228
+    },
+    "video_level_verdict": "FireExplosion (75.0%)",
+    "video_fused_reason": "Fire/Explosion Incident (Unattended Scene)",
+    "people_detected": false,
+    "vehicles_detected": false,
+    "weapons_detected": [],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "64.6s",
+    "status": "PASSED \u2713"
+  },
+  {
+    "video": "fireexplosion1.mp4",
+    "expected": "FireExplosion",
+    "raw_3d_dominant": "Violence (68.8%)",
+    "raw_3d_windows": {
+      "Violence": 440
+    },
+    "fused_dominant_crime": "FireExplosion",
+    "fused_windows": {
+      "FireExplosion": 440
+    },
+    "video_level_verdict": "FireExplosion (75.0%)",
+    "video_fused_reason": "Fire/Explosion Incident (Unattended Scene)",
+    "people_detected": false,
+    "vehicles_detected": false,
+    "weapons_detected": [],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "117.6s",
+    "status": "PASSED \u2713"
+  },
+  {
+    "video": "robbery6.mp4",
+    "expected": "Robbery",
+    "raw_3d_dominant": "Violence (34.0%)",
+    "raw_3d_windows": {
+      "Robbery": 115,
+      "Vandalism": 7,
+      "Violence": 163,
+      "Accident": 10,
+      "FireExplosion": 14,
+      "Shooting": 39
+    },
+    "fused_dominant_crime": "FireExplosion",
+    "fused_windows": {
+      "FireExplosion": 348
+    },
+    "video_level_verdict": "FireExplosion (75.0%)",
+    "video_fused_reason": "Fire/Explosion Incident (Unattended Scene)",
+    "people_detected": false,
+    "vehicles_detected": false,
+    "weapons_detected": [],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "96.0s",
+    "status": "MISMATCH"
+  },
+  {
+    "video": "shooting.mp4",
+    "expected": "Shooting",
+    "raw_3d_dominant": "Violence (54.1%)",
+    "raw_3d_windows": {
+      "Violence": 120,
+      "Normal": 2,
+      "FireExplosion": 1,
+      "Accident": 2
+    },
+    "fused_dominant_crime": "FireExplosion",
+    "fused_windows": {
+      "FireExplosion": 125
+    },
+    "video_level_verdict": "FireExplosion (75.0%)",
+    "video_fused_reason": "Fire/Explosion Incident (Unattended Scene)",
+    "people_detected": false,
+    "vehicles_detected": false,
+    "weapons_detected": [],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "34.1s",
+    "status": "MISMATCH"
+  },
+  {
+    "video": "vandalism.mp4",
+    "expected": "Vandalism",
+    "raw_3d_dominant": "Normal (28.6%)",
+    "raw_3d_windows": {
+      "Robbery": 37,
+      "Accident": 20,
+      "Violence": 57,
+      "Vandalism": 15,
+      "Normal": 23
+    },
+    "fused_dominant_crime": "FireExplosion",
+    "fused_windows": {
+      "FireExplosion": 152
+    },
+    "video_level_verdict": "FireExplosion (75.0%)",
+    "video_fused_reason": "Fire/Explosion Incident (Unattended Scene)",
+    "people_detected": false,
+    "vehicles_detected": false,
+    "weapons_detected": [],
+    "activities": [
+      "vehicle_count",
+      "people_count",
+      "activities",
+      "weapon_count"
+    ],
+    "processing_time": "42.9s",
+    "status": "MISMATCH"
+  }
+]

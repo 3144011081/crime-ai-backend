@@ -1,0 +1,2777 @@
+{
+  "results": [
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 0,
+      "end": 7
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 4,
+      "end": 11
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 8,
+      "end": 15
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 12,
+      "end": 19
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 16,
+      "end": 23
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 20,
+      "end": 27
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 24,
+      "end": 31
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9112604260444641,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9112604260444641,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 28,
+      "end": 35
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 32,
+      "end": 39
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.929643988609314,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.929643988609314,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 36,
+      "end": 43
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8814614415168762,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8814614415168762,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 40,
+      "end": 47
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.789070725440979,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.789070725440979,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 44,
+      "end": 51
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9393105506896973,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9393105506896973,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 48,
+      "end": 55
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7967254519462585,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7967254519462585,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 52,
+      "end": 59
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 56,
+      "end": 63
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8910762071609497,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8910762071609497,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 60,
+      "end": 67
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 64,
+      "end": 71
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9115556478500366,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9115556478500366,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 68,
+      "end": 75
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8926215171813965,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8926215171813965,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 72,
+      "end": 79
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8737197518348694,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8737197518348694,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 76,
+      "end": 83
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8695436120033264,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8695436120033264,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 80,
+      "end": 87
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 84,
+      "end": 91
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9232262372970581,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9232262372970581,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 88,
+      "end": 95
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7721769213676453,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7721769213676453,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 92,
+      "end": 99
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7809892296791077,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7809892296791077,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 96,
+      "end": 103
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 100,
+      "end": 107
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 104,
+      "end": 111
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7518866658210754,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7518866658210754,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 108,
+      "end": 115
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 112,
+      "end": 119
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 116,
+      "end": 123
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 120,
+      "end": 127
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 124,
+      "end": 131
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 128,
+      "end": 135
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 132,
+      "end": 139
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 136,
+      "end": 143
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 140,
+      "end": 147
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 144,
+      "end": 151
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8080664277076721,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8080664277076721,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 148,
+      "end": 155
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 152,
+      "end": 159
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 156,
+      "end": 163
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 160,
+      "end": 167
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 164,
+      "end": 171
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 168,
+      "end": 175
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 172,
+      "end": 179
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 176,
+      "end": 183
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 180,
+      "end": 187
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 184,
+      "end": 191
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7748692035675049,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7748692035675049,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 188,
+      "end": 195
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 192,
+      "end": 199
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 196,
+      "end": 203
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 200,
+      "end": 207
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 204,
+      "end": 211
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 208,
+      "end": 215
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 212,
+      "end": 219
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 216,
+      "end": 223
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 220,
+      "end": 227
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 224,
+      "end": 231
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 228,
+      "end": 235
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 232,
+      "end": 239
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 236,
+      "end": 243
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 240,
+      "end": 247
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 244,
+      "end": 251
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 248,
+      "end": 255
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 252,
+      "end": 259
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 256,
+      "end": 263
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 260,
+      "end": 267
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 264,
+      "end": 271
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 268,
+      "end": 275
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 272,
+      "end": 279
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 276,
+      "end": 283
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 280,
+      "end": 287
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.791013240814209,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.791013240814209,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 284,
+      "end": 291
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 288,
+      "end": 295
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 292,
+      "end": 299
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 296,
+      "end": 303
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 300,
+      "end": 307
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 304,
+      "end": 311
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 308,
+      "end": 315
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 312,
+      "end": 319
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 316,
+      "end": 323
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 320,
+      "end": 327
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 324,
+      "end": 331
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 328,
+      "end": 335
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 332,
+      "end": 339
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.92,
+      "probabilities": [
+        0.9200000166893005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 336,
+      "end": 343
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.92,
+      "probabilities": [
+        0.9200000166893005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 340,
+      "end": 347
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.92,
+      "probabilities": [
+        0.9200000166893005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 344,
+      "end": 351
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 348,
+      "end": 355
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 352,
+      "end": 359
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 356,
+      "end": 363
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 360,
+      "end": 367
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 364,
+      "end": 371
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 368,
+      "end": 375
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 372,
+      "end": 379
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 376,
+      "end": 383
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 380,
+      "end": 387
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 384,
+      "end": 391
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 388,
+      "end": 395
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 392,
+      "end": 399
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 396,
+      "end": 403
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 400,
+      "end": 407
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 404,
+      "end": 411
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 408,
+      "end": 415
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 412,
+      "end": 419
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 416,
+      "end": 423
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 420,
+      "end": 427
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 424,
+      "end": 431
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 428,
+      "end": 435
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 432,
+      "end": 439
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 436,
+      "end": 443
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 440,
+      "end": 447
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8755951523780823,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8755951523780823,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 444,
+      "end": 451
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 448,
+      "end": 455
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 452,
+      "end": 459
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 456,
+      "end": 463
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 460,
+      "end": 467
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 464,
+      "end": 471
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 468,
+      "end": 475
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 472,
+      "end": 479
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 476,
+      "end": 483
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 480,
+      "end": 487
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 484,
+      "end": 491
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 488,
+      "end": 495
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 492,
+      "end": 499
+    },
+    {
+      "label": "Normal",
+      "confidence": 0.95,
+      "probabilities": [
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 496,
+      "end": 503
+    }
+  ],
+  "crime": true,
+  "type": "Shooting",
+  "confidence": 0.949999988079071,
+  "crime_probability": 0.95,
+  "output_video": "shooting_result.mp4",
+  "crime_clips": [
+    "shooting_shooting_01.mp4",
+    "shooting_shooting_02.mp4",
+    "shooting_shooting_03.mp4",
+    "shooting_shooting_04.mp4"
+  ],
+  "description": "The video contains a shooting incident. The model identified this as Shooting with 95.00% confidence and a crime probability of 95.00%. Confirmed firearm detected.",
+  "people_count": 0,
+  "vehicle_count": 0,
+  "weapon_count": 2,
+  "detected_activities": [
+    "Weapon Threat (Explosive)",
+    "Weapon Threat (Firearm)"
+  ],
+  "acquisition_mode": "original",
+  "pixel_coordinates": null,
+  "window_audits": [
+    {
+      "id": 0,
+      "timestamp": "00:00",
+      "seconds": 0.0,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 1,
+      "timestamp": "00:00",
+      "seconds": 0.13,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 2,
+      "timestamp": "00:00",
+      "seconds": 0.27,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 3,
+      "timestamp": "00:00",
+      "seconds": 0.4,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 4,
+      "timestamp": "00:00",
+      "seconds": 0.53,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 5,
+      "timestamp": "00:00",
+      "seconds": 0.67,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 6,
+      "timestamp": "00:00",
+      "seconds": 0.8,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 7,
+      "timestamp": "00:00",
+      "seconds": 0.93,
+      "classification": "Shooting",
+      "confidence": 91.1
+    },
+    {
+      "id": 8,
+      "timestamp": "00:01",
+      "seconds": 1.07,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 9,
+      "timestamp": "00:01",
+      "seconds": 1.2,
+      "classification": "Robbery",
+      "confidence": 93.0
+    },
+    {
+      "id": 10,
+      "timestamp": "00:01",
+      "seconds": 1.33,
+      "classification": "Robbery",
+      "confidence": 88.1
+    },
+    {
+      "id": 11,
+      "timestamp": "00:01",
+      "seconds": 1.47,
+      "classification": "Robbery",
+      "confidence": 78.9
+    },
+    {
+      "id": 12,
+      "timestamp": "00:01",
+      "seconds": 1.6,
+      "classification": "Robbery",
+      "confidence": 93.9
+    },
+    {
+      "id": 13,
+      "timestamp": "00:01",
+      "seconds": 1.73,
+      "classification": "Robbery",
+      "confidence": 79.7
+    },
+    {
+      "id": 14,
+      "timestamp": "00:01",
+      "seconds": 1.87,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 15,
+      "timestamp": "00:02",
+      "seconds": 2.0,
+      "classification": "Robbery",
+      "confidence": 89.1
+    },
+    {
+      "id": 16,
+      "timestamp": "00:02",
+      "seconds": 2.13,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 17,
+      "timestamp": "00:02",
+      "seconds": 2.27,
+      "classification": "Shooting",
+      "confidence": 91.2
+    },
+    {
+      "id": 18,
+      "timestamp": "00:02",
+      "seconds": 2.4,
+      "classification": "Shooting",
+      "confidence": 89.3
+    },
+    {
+      "id": 19,
+      "timestamp": "00:02",
+      "seconds": 2.53,
+      "classification": "Shooting",
+      "confidence": 87.4
+    },
+    {
+      "id": 20,
+      "timestamp": "00:02",
+      "seconds": 2.67,
+      "classification": "Shooting",
+      "confidence": 87.0
+    },
+    {
+      "id": 21,
+      "timestamp": "00:02",
+      "seconds": 2.8,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 22,
+      "timestamp": "00:02",
+      "seconds": 2.93,
+      "classification": "Shooting",
+      "confidence": 92.3
+    },
+    {
+      "id": 23,
+      "timestamp": "00:03",
+      "seconds": 3.07,
+      "classification": "Shooting",
+      "confidence": 77.2
+    },
+    {
+      "id": 24,
+      "timestamp": "00:03",
+      "seconds": 3.2,
+      "classification": "Shooting",
+      "confidence": 78.1
+    },
+    {
+      "id": 25,
+      "timestamp": "00:03",
+      "seconds": 3.33,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 26,
+      "timestamp": "00:03",
+      "seconds": 3.47,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 27,
+      "timestamp": "00:03",
+      "seconds": 3.6,
+      "classification": "Shooting",
+      "confidence": 75.2
+    },
+    {
+      "id": 28,
+      "timestamp": "00:03",
+      "seconds": 3.73,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 29,
+      "timestamp": "00:03",
+      "seconds": 3.87,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 30,
+      "timestamp": "00:04",
+      "seconds": 4.0,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 31,
+      "timestamp": "00:04",
+      "seconds": 4.13,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 32,
+      "timestamp": "00:04",
+      "seconds": 4.27,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 33,
+      "timestamp": "00:04",
+      "seconds": 4.4,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 34,
+      "timestamp": "00:04",
+      "seconds": 4.53,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 35,
+      "timestamp": "00:04",
+      "seconds": 4.67,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 36,
+      "timestamp": "00:04",
+      "seconds": 4.8,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 37,
+      "timestamp": "00:04",
+      "seconds": 4.93,
+      "classification": "Shooting",
+      "confidence": 80.8
+    },
+    {
+      "id": 38,
+      "timestamp": "00:05",
+      "seconds": 5.07,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 39,
+      "timestamp": "00:05",
+      "seconds": 5.2,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 40,
+      "timestamp": "00:05",
+      "seconds": 5.33,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 41,
+      "timestamp": "00:05",
+      "seconds": 5.47,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 42,
+      "timestamp": "00:05",
+      "seconds": 5.6,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 43,
+      "timestamp": "00:05",
+      "seconds": 5.73,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 44,
+      "timestamp": "00:05",
+      "seconds": 5.87,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 45,
+      "timestamp": "00:06",
+      "seconds": 6.0,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 46,
+      "timestamp": "00:06",
+      "seconds": 6.13,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 47,
+      "timestamp": "00:06",
+      "seconds": 6.27,
+      "classification": "Shooting",
+      "confidence": 77.5
+    },
+    {
+      "id": 48,
+      "timestamp": "00:06",
+      "seconds": 6.4,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 49,
+      "timestamp": "00:06",
+      "seconds": 6.53,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 50,
+      "timestamp": "00:06",
+      "seconds": 6.67,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 51,
+      "timestamp": "00:06",
+      "seconds": 6.8,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 52,
+      "timestamp": "00:06",
+      "seconds": 6.93,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 53,
+      "timestamp": "00:07",
+      "seconds": 7.07,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 54,
+      "timestamp": "00:07",
+      "seconds": 7.2,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 55,
+      "timestamp": "00:07",
+      "seconds": 7.33,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 56,
+      "timestamp": "00:07",
+      "seconds": 7.47,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 57,
+      "timestamp": "00:07",
+      "seconds": 7.6,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 58,
+      "timestamp": "00:07",
+      "seconds": 7.73,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 59,
+      "timestamp": "00:07",
+      "seconds": 7.87,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 60,
+      "timestamp": "00:08",
+      "seconds": 8.0,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 61,
+      "timestamp": "00:08",
+      "seconds": 8.13,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 62,
+      "timestamp": "00:08",
+      "seconds": 8.27,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 63,
+      "timestamp": "00:08",
+      "seconds": 8.4,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 64,
+      "timestamp": "00:08",
+      "seconds": 8.53,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 65,
+      "timestamp": "00:08",
+      "seconds": 8.67,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 66,
+      "timestamp": "00:08",
+      "seconds": 8.8,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 67,
+      "timestamp": "00:08",
+      "seconds": 8.93,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 68,
+      "timestamp": "00:09",
+      "seconds": 9.07,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 69,
+      "timestamp": "00:09",
+      "seconds": 9.2,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 70,
+      "timestamp": "00:09",
+      "seconds": 9.33,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 71,
+      "timestamp": "00:09",
+      "seconds": 9.47,
+      "classification": "Shooting",
+      "confidence": 79.1
+    },
+    {
+      "id": 72,
+      "timestamp": "00:09",
+      "seconds": 9.6,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 73,
+      "timestamp": "00:09",
+      "seconds": 9.73,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 74,
+      "timestamp": "00:09",
+      "seconds": 9.87,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 75,
+      "timestamp": "00:10",
+      "seconds": 10.0,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 76,
+      "timestamp": "00:10",
+      "seconds": 10.13,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 77,
+      "timestamp": "00:10",
+      "seconds": 10.27,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 78,
+      "timestamp": "00:10",
+      "seconds": 10.4,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 79,
+      "timestamp": "00:10",
+      "seconds": 10.53,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 80,
+      "timestamp": "00:10",
+      "seconds": 10.67,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 81,
+      "timestamp": "00:10",
+      "seconds": 10.8,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 82,
+      "timestamp": "00:10",
+      "seconds": 10.93,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 83,
+      "timestamp": "00:11",
+      "seconds": 11.07,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 84,
+      "timestamp": "00:11",
+      "seconds": 11.2,
+      "classification": "Normal",
+      "confidence": 92.0
+    },
+    {
+      "id": 85,
+      "timestamp": "00:11",
+      "seconds": 11.33,
+      "classification": "Normal",
+      "confidence": 92.0
+    },
+    {
+      "id": 86,
+      "timestamp": "00:11",
+      "seconds": 11.47,
+      "classification": "Normal",
+      "confidence": 92.0
+    },
+    {
+      "id": 87,
+      "timestamp": "00:11",
+      "seconds": 11.6,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 88,
+      "timestamp": "00:11",
+      "seconds": 11.73,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 89,
+      "timestamp": "00:11",
+      "seconds": 11.87,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 90,
+      "timestamp": "00:12",
+      "seconds": 12.0,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 91,
+      "timestamp": "00:12",
+      "seconds": 12.13,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 92,
+      "timestamp": "00:12",
+      "seconds": 12.27,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 93,
+      "timestamp": "00:12",
+      "seconds": 12.4,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 94,
+      "timestamp": "00:12",
+      "seconds": 12.53,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 95,
+      "timestamp": "00:12",
+      "seconds": 12.67,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 96,
+      "timestamp": "00:12",
+      "seconds": 12.8,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 97,
+      "timestamp": "00:12",
+      "seconds": 12.93,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 98,
+      "timestamp": "00:13",
+      "seconds": 13.07,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 99,
+      "timestamp": "00:13",
+      "seconds": 13.2,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 100,
+      "timestamp": "00:13",
+      "seconds": 13.33,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 101,
+      "timestamp": "00:13",
+      "seconds": 13.47,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 102,
+      "timestamp": "00:13",
+      "seconds": 13.6,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 103,
+      "timestamp": "00:13",
+      "seconds": 13.73,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 104,
+      "timestamp": "00:13",
+      "seconds": 13.87,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 105,
+      "timestamp": "00:14",
+      "seconds": 14.0,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 106,
+      "timestamp": "00:14",
+      "seconds": 14.13,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 107,
+      "timestamp": "00:14",
+      "seconds": 14.27,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 108,
+      "timestamp": "00:14",
+      "seconds": 14.4,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 109,
+      "timestamp": "00:14",
+      "seconds": 14.53,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 110,
+      "timestamp": "00:14",
+      "seconds": 14.67,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 111,
+      "timestamp": "00:14",
+      "seconds": 14.8,
+      "classification": "Shooting",
+      "confidence": 87.6
+    },
+    {
+      "id": 112,
+      "timestamp": "00:14",
+      "seconds": 14.93,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 113,
+      "timestamp": "00:15",
+      "seconds": 15.07,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 114,
+      "timestamp": "00:15",
+      "seconds": 15.2,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 115,
+      "timestamp": "00:15",
+      "seconds": 15.33,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 116,
+      "timestamp": "00:15",
+      "seconds": 15.47,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 117,
+      "timestamp": "00:15",
+      "seconds": 15.6,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 118,
+      "timestamp": "00:15",
+      "seconds": 15.73,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 119,
+      "timestamp": "00:15",
+      "seconds": 15.87,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 120,
+      "timestamp": "00:16",
+      "seconds": 16.0,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 121,
+      "timestamp": "00:16",
+      "seconds": 16.13,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 122,
+      "timestamp": "00:16",
+      "seconds": 16.27,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 123,
+      "timestamp": "00:16",
+      "seconds": 16.4,
+      "classification": "Normal",
+      "confidence": 95.0
+    },
+    {
+      "id": 124,
+      "timestamp": "00:16",
+      "seconds": 16.53,
+      "classification": "Normal",
+      "confidence": 95.0
+    }
+  ]
+}

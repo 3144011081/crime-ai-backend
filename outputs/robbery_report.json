@@ -1,0 +1,3418 @@
+{
+  "results": [
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 0,
+      "end": 7
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 4,
+      "end": 11
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 8,
+      "end": 15
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 12,
+      "end": 19
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 16,
+      "end": 23
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9171299934387207,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9171299934387207,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 20,
+      "end": 27
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8547633290290833,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8547633290290833,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 24,
+      "end": 31
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7971514463424683,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7971514463424683,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 28,
+      "end": 35
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7981590032577515,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7981590032577515,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 32,
+      "end": 39
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8840538263320923,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8840538263320923,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 36,
+      "end": 43
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7797635197639465,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7797635197639465,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 40,
+      "end": 47
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 44,
+      "end": 51
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8353313207626343,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8353313207626343,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 48,
+      "end": 55
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8798734545707703,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8798734545707703,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 52,
+      "end": 59
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9396454691886902,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9396454691886902,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 56,
+      "end": 63
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 60,
+      "end": 67
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 64,
+      "end": 71
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 68,
+      "end": 75
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.89699786901474,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.89699786901474,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 72,
+      "end": 79
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8065577149391174,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8065577149391174,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 76,
+      "end": 83
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 80,
+      "end": 87
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 84,
+      "end": 91
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8978312015533447,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8978312015533447,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 88,
+      "end": 95
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8737987279891968,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8737987279891968,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 92,
+      "end": 99
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.896899402141571,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.896899402141571,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 96,
+      "end": 103
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 100,
+      "end": 107
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9196032285690308,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9196032285690308,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 104,
+      "end": 111
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7997943162918091,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7997943162918091,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 108,
+      "end": 115
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7854242324829102,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7854242324829102,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 112,
+      "end": 119
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 116,
+      "end": 123
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 120,
+      "end": 127
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 124,
+      "end": 131
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 128,
+      "end": 135
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 132,
+      "end": 139
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.775842547416687,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.775842547416687,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 136,
+      "end": 143
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 140,
+      "end": 147
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 144,
+      "end": 151
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 148,
+      "end": 155
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7770475149154663,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7770475149154663,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 152,
+      "end": 159
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 156,
+      "end": 163
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 160,
+      "end": 167
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 164,
+      "end": 171
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 168,
+      "end": 175
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 172,
+      "end": 179
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8148539066314697,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8148539066314697,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 176,
+      "end": 183
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 180,
+      "end": 187
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9016762971878052,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9016762971878052,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 184,
+      "end": 191
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 188,
+      "end": 195
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.864507794380188,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.864507794380188,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 192,
+      "end": 199
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9077236652374268,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9077236652374268,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 196,
+      "end": 203
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8721618056297302,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8721618056297302,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 200,
+      "end": 207
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 204,
+      "end": 211
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.841951310634613,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.841951310634613,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 208,
+      "end": 215
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8568902015686035,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8568902015686035,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 212,
+      "end": 219
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7831689715385437,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7831689715385437,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 216,
+      "end": 223
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7857104539871216,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7857104539871216,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 220,
+      "end": 227
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8244258761405945,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8244258761405945,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 224,
+      "end": 231
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 228,
+      "end": 235
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7587279081344604,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7587279081344604,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 232,
+      "end": 239
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 236,
+      "end": 243
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 240,
+      "end": 247
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 244,
+      "end": 251
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.83046555519104,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.83046555519104,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 248,
+      "end": 255
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7821255922317505,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7821255922317505,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 252,
+      "end": 259
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 256,
+      "end": 263
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 260,
+      "end": 267
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 264,
+      "end": 271
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 268,
+      "end": 275
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 272,
+      "end": 279
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7533746361732483,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7533746361732483,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 276,
+      "end": 283
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 280,
+      "end": 287
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 284,
+      "end": 291
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 288,
+      "end": 295
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7913191318511963,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7913191318511963,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 292,
+      "end": 299
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 296,
+      "end": 303
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 300,
+      "end": 307
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 304,
+      "end": 311
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 308,
+      "end": 315
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9169266819953918,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9169266819953918,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 312,
+      "end": 319
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 316,
+      "end": 323
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 320,
+      "end": 327
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8195503950119019,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8195503950119019,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 324,
+      "end": 331
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 328,
+      "end": 335
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 332,
+      "end": 339
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 336,
+      "end": 343
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 340,
+      "end": 347
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 344,
+      "end": 351
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7598134279251099,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7598134279251099,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 348,
+      "end": 355
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 352,
+      "end": 359
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9407371878623962,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9407371878623962,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 356,
+      "end": 363
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 360,
+      "end": 367
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 364,
+      "end": 371
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 368,
+      "end": 375
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 372,
+      "end": 379
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7756451964378357,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7756451964378357,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 376,
+      "end": 383
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 380,
+      "end": 387
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8538826704025269,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8538826704025269,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 384,
+      "end": 391
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 388,
+      "end": 395
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 392,
+      "end": 399
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7972596883773804,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7972596883773804,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 396,
+      "end": 403
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 400,
+      "end": 407
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8413676619529724,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8413676619529724,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 404,
+      "end": 411
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 408,
+      "end": 415
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 412,
+      "end": 419
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8807401657104492,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8807401657104492,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 416,
+      "end": 423
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.8350654244422913,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.8350654244422913,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 420,
+      "end": 427
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9386484026908875,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9386484026908875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 424,
+      "end": 431
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.9317398071289062,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.9317398071289062,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 428,
+      "end": 435
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9128217101097107,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9128217101097107,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 432,
+      "end": 439
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9313798546791077,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9313798546791077,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 436,
+      "end": 443
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 440,
+      "end": 447
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 444,
+      "end": 451
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 448,
+      "end": 455
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 452,
+      "end": 459
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 456,
+      "end": 463
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 460,
+      "end": 467
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9491826891899109,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9491826891899109,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 464,
+      "end": 471
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 468,
+      "end": 475
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 472,
+      "end": 479
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 476,
+      "end": 483
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7819103002548218,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7819103002548218,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 480,
+      "end": 487
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 484,
+      "end": 491
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 488,
+      "end": 495
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7924050092697144,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7924050092697144,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 492,
+      "end": 499
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 496,
+      "end": 503
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 500,
+      "end": 507
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 504,
+      "end": 511
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7565617561340332,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7565617561340332,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 508,
+      "end": 515
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.9099776148796082,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.9099776148796082,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 512,
+      "end": 519
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.95,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.949999988079071,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 516,
+      "end": 523
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8851204514503479,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8851204514503479,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 520,
+      "end": 527
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 524,
+      "end": 531
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 528,
+      "end": 535
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 532,
+      "end": 539
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.833463728427887,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.833463728427887,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 536,
+      "end": 543
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 540,
+      "end": 547
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 544,
+      "end": 551
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 548,
+      "end": 555
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 552,
+      "end": 559
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 556,
+      "end": 563
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7955389022827148,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7955389022827148,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 560,
+      "end": 567
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8630484342575073,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8630484342575073,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 564,
+      "end": 571
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 568,
+      "end": 575
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8572406768798828,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8572406768798828,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 572,
+      "end": 579
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.7681084275245667,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.7681084275245667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 576,
+      "end": 583
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.8627840876579285,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.8627840876579285,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 580,
+      "end": 587
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7738385200500488,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7738385200500488,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 584,
+      "end": 591
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 588,
+      "end": 595
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 592,
+      "end": 599
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.7504842281341553,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.7504842281341553,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 596,
+      "end": 603
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 600,
+      "end": 607
+    },
+    {
+      "label": "Shooting",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 604,
+      "end": 611
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 608,
+      "end": 615
+    },
+    {
+      "label": "Robbery",
+      "confidence": 0.75,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start": 612,
+      "end": 619
+    }
+  ],
+  "crime": true,
+  "type": "Robbery",
+  "confidence": 0.949999988079071,
+  "crime_probability": 0.95,
+  "output_video": "robbery_result.mp4",
+  "crime_clips": [
+    "robbery_robbery_01.mp4"
+  ],
+  "description": "The video contains a robbery incident. The model identified this as Robbery with 95.00% confidence and a crime probability of 95.00%. Confirmed firearm detected.",
+  "people_count": 4,
+  "vehicle_count": 4,
+  "weapon_count": 5,
+  "detected_activities": [
+    "Walking / Active",
+    "Stationary Vehicle",
+    "Weapon Threat (Blade)",
+    "Running / Fast Motion",
+    "Weapon Threat (Explosive)",
+    "Vehicle In Motion",
+    "Armed / Threat",
+    "Weapon Threat (Firearm)"
+  ],
+  "acquisition_mode": "original",
+  "pixel_coordinates": null,
+  "window_audits": [
+    {
+      "id": 0,
+      "timestamp": "00:00",
+      "seconds": 0.0,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 1,
+      "timestamp": "00:00",
+      "seconds": 0.13,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 2,
+      "timestamp": "00:00",
+      "seconds": 0.27,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 3,
+      "timestamp": "00:00",
+      "seconds": 0.4,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 4,
+      "timestamp": "00:00",
+      "seconds": 0.53,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 5,
+      "timestamp": "00:00",
+      "seconds": 0.67,
+      "classification": "Robbery",
+      "confidence": 91.7
+    },
+    {
+      "id": 6,
+      "timestamp": "00:00",
+      "seconds": 0.8,
+      "classification": "Robbery",
+      "confidence": 85.5
+    },
+    {
+      "id": 7,
+      "timestamp": "00:00",
+      "seconds": 0.93,
+      "classification": "Robbery",
+      "confidence": 79.7
+    },
+    {
+      "id": 8,
+      "timestamp": "00:01",
+      "seconds": 1.07,
+      "classification": "Shooting",
+      "confidence": 79.8
+    },
+    {
+      "id": 9,
+      "timestamp": "00:01",
+      "seconds": 1.2,
+      "classification": "Robbery",
+      "confidence": 88.4
+    },
+    {
+      "id": 10,
+      "timestamp": "00:01",
+      "seconds": 1.33,
+      "classification": "Robbery",
+      "confidence": 78.0
+    },
+    {
+      "id": 11,
+      "timestamp": "00:01",
+      "seconds": 1.47,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 12,
+      "timestamp": "00:01",
+      "seconds": 1.6,
+      "classification": "Robbery",
+      "confidence": 83.5
+    },
+    {
+      "id": 13,
+      "timestamp": "00:01",
+      "seconds": 1.74,
+      "classification": "Robbery",
+      "confidence": 88.0
+    },
+    {
+      "id": 14,
+      "timestamp": "00:01",
+      "seconds": 1.87,
+      "classification": "Robbery",
+      "confidence": 94.0
+    },
+    {
+      "id": 15,
+      "timestamp": "00:02",
+      "seconds": 2.0,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 16,
+      "timestamp": "00:02",
+      "seconds": 2.14,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 17,
+      "timestamp": "00:02",
+      "seconds": 2.27,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 18,
+      "timestamp": "00:02",
+      "seconds": 2.4,
+      "classification": "Robbery",
+      "confidence": 89.7
+    },
+    {
+      "id": 19,
+      "timestamp": "00:02",
+      "seconds": 2.54,
+      "classification": "Robbery",
+      "confidence": 80.7
+    },
+    {
+      "id": 20,
+      "timestamp": "00:02",
+      "seconds": 2.67,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 21,
+      "timestamp": "00:02",
+      "seconds": 2.8,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 22,
+      "timestamp": "00:02",
+      "seconds": 2.94,
+      "classification": "Robbery",
+      "confidence": 89.8
+    },
+    {
+      "id": 23,
+      "timestamp": "00:03",
+      "seconds": 3.07,
+      "classification": "Shooting",
+      "confidence": 87.4
+    },
+    {
+      "id": 24,
+      "timestamp": "00:03",
+      "seconds": 3.2,
+      "classification": "Shooting",
+      "confidence": 89.7
+    },
+    {
+      "id": 25,
+      "timestamp": "00:03",
+      "seconds": 3.34,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 26,
+      "timestamp": "00:03",
+      "seconds": 3.47,
+      "classification": "Shooting",
+      "confidence": 92.0
+    },
+    {
+      "id": 27,
+      "timestamp": "00:03",
+      "seconds": 3.6,
+      "classification": "Robbery",
+      "confidence": 80.0
+    },
+    {
+      "id": 28,
+      "timestamp": "00:03",
+      "seconds": 3.74,
+      "classification": "Robbery",
+      "confidence": 78.5
+    },
+    {
+      "id": 29,
+      "timestamp": "00:03",
+      "seconds": 3.87,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 30,
+      "timestamp": "00:04",
+      "seconds": 4.0,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 31,
+      "timestamp": "00:04",
+      "seconds": 4.14,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 32,
+      "timestamp": "00:04",
+      "seconds": 4.27,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 33,
+      "timestamp": "00:04",
+      "seconds": 4.4,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 34,
+      "timestamp": "00:04",
+      "seconds": 4.54,
+      "classification": "Shooting",
+      "confidence": 77.6
+    },
+    {
+      "id": 35,
+      "timestamp": "00:04",
+      "seconds": 4.67,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 36,
+      "timestamp": "00:04",
+      "seconds": 4.8,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 37,
+      "timestamp": "00:04",
+      "seconds": 4.94,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 38,
+      "timestamp": "00:05",
+      "seconds": 5.07,
+      "classification": "Robbery",
+      "confidence": 77.7
+    },
+    {
+      "id": 39,
+      "timestamp": "00:05",
+      "seconds": 5.21,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 40,
+      "timestamp": "00:05",
+      "seconds": 5.34,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 41,
+      "timestamp": "00:05",
+      "seconds": 5.47,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 42,
+      "timestamp": "00:05",
+      "seconds": 5.61,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 43,
+      "timestamp": "00:05",
+      "seconds": 5.74,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 44,
+      "timestamp": "00:05",
+      "seconds": 5.87,
+      "classification": "Robbery",
+      "confidence": 81.5
+    },
+    {
+      "id": 45,
+      "timestamp": "00:06",
+      "seconds": 6.01,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 46,
+      "timestamp": "00:06",
+      "seconds": 6.14,
+      "classification": "Robbery",
+      "confidence": 90.2
+    },
+    {
+      "id": 47,
+      "timestamp": "00:06",
+      "seconds": 6.27,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 48,
+      "timestamp": "00:06",
+      "seconds": 6.41,
+      "classification": "Shooting",
+      "confidence": 86.5
+    },
+    {
+      "id": 49,
+      "timestamp": "00:06",
+      "seconds": 6.54,
+      "classification": "Shooting",
+      "confidence": 90.8
+    },
+    {
+      "id": 50,
+      "timestamp": "00:06",
+      "seconds": 6.67,
+      "classification": "Shooting",
+      "confidence": 87.2
+    },
+    {
+      "id": 51,
+      "timestamp": "00:06",
+      "seconds": 6.81,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 52,
+      "timestamp": "00:06",
+      "seconds": 6.94,
+      "classification": "Shooting",
+      "confidence": 84.2
+    },
+    {
+      "id": 53,
+      "timestamp": "00:07",
+      "seconds": 7.07,
+      "classification": "Shooting",
+      "confidence": 85.7
+    },
+    {
+      "id": 54,
+      "timestamp": "00:07",
+      "seconds": 7.21,
+      "classification": "Robbery",
+      "confidence": 78.3
+    },
+    {
+      "id": 55,
+      "timestamp": "00:07",
+      "seconds": 7.34,
+      "classification": "Shooting",
+      "confidence": 78.6
+    },
+    {
+      "id": 56,
+      "timestamp": "00:07",
+      "seconds": 7.47,
+      "classification": "Shooting",
+      "confidence": 82.4
+    },
+    {
+      "id": 57,
+      "timestamp": "00:07",
+      "seconds": 7.61,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 58,
+      "timestamp": "00:07",
+      "seconds": 7.74,
+      "classification": "Shooting",
+      "confidence": 75.9
+    },
+    {
+      "id": 59,
+      "timestamp": "00:07",
+      "seconds": 7.87,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 60,
+      "timestamp": "00:08",
+      "seconds": 8.01,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 61,
+      "timestamp": "00:08",
+      "seconds": 8.14,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 62,
+      "timestamp": "00:08",
+      "seconds": 8.27,
+      "classification": "Robbery",
+      "confidence": 83.0
+    },
+    {
+      "id": 63,
+      "timestamp": "00:08",
+      "seconds": 8.41,
+      "classification": "Robbery",
+      "confidence": 78.2
+    },
+    {
+      "id": 64,
+      "timestamp": "00:08",
+      "seconds": 8.54,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 65,
+      "timestamp": "00:08",
+      "seconds": 8.68,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 66,
+      "timestamp": "00:08",
+      "seconds": 8.81,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 67,
+      "timestamp": "00:08",
+      "seconds": 8.94,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 68,
+      "timestamp": "00:09",
+      "seconds": 9.08,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 69,
+      "timestamp": "00:09",
+      "seconds": 9.21,
+      "classification": "Robbery",
+      "confidence": 75.3
+    },
+    {
+      "id": 70,
+      "timestamp": "00:09",
+      "seconds": 9.34,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 71,
+      "timestamp": "00:09",
+      "seconds": 9.48,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 72,
+      "timestamp": "00:09",
+      "seconds": 9.61,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 73,
+      "timestamp": "00:09",
+      "seconds": 9.74,
+      "classification": "Shooting",
+      "confidence": 79.1
+    },
+    {
+      "id": 74,
+      "timestamp": "00:09",
+      "seconds": 9.88,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 75,
+      "timestamp": "00:10",
+      "seconds": 10.01,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 76,
+      "timestamp": "00:10",
+      "seconds": 10.14,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 77,
+      "timestamp": "00:10",
+      "seconds": 10.28,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 78,
+      "timestamp": "00:10",
+      "seconds": 10.41,
+      "classification": "Shooting",
+      "confidence": 91.7
+    },
+    {
+      "id": 79,
+      "timestamp": "00:10",
+      "seconds": 10.54,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 80,
+      "timestamp": "00:10",
+      "seconds": 10.68,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 81,
+      "timestamp": "00:10",
+      "seconds": 10.81,
+      "classification": "Shooting",
+      "confidence": 82.0
+    },
+    {
+      "id": 82,
+      "timestamp": "00:10",
+      "seconds": 10.94,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 83,
+      "timestamp": "00:11",
+      "seconds": 11.08,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 84,
+      "timestamp": "00:11",
+      "seconds": 11.21,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 85,
+      "timestamp": "00:11",
+      "seconds": 11.34,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 86,
+      "timestamp": "00:11",
+      "seconds": 11.48,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 87,
+      "timestamp": "00:11",
+      "seconds": 11.61,
+      "classification": "Shooting",
+      "confidence": 76.0
+    },
+    {
+      "id": 88,
+      "timestamp": "00:11",
+      "seconds": 11.75,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 89,
+      "timestamp": "00:11",
+      "seconds": 11.88,
+      "classification": "Shooting",
+      "confidence": 94.1
+    },
+    {
+      "id": 90,
+      "timestamp": "00:12",
+      "seconds": 12.01,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 91,
+      "timestamp": "00:12",
+      "seconds": 12.15,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 92,
+      "timestamp": "00:12",
+      "seconds": 12.28,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 93,
+      "timestamp": "00:12",
+      "seconds": 12.41,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 94,
+      "timestamp": "00:12",
+      "seconds": 12.55,
+      "classification": "Shooting",
+      "confidence": 77.6
+    },
+    {
+      "id": 95,
+      "timestamp": "00:12",
+      "seconds": 12.68,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 96,
+      "timestamp": "00:12",
+      "seconds": 12.81,
+      "classification": "Shooting",
+      "confidence": 85.4
+    },
+    {
+      "id": 97,
+      "timestamp": "00:12",
+      "seconds": 12.95,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 98,
+      "timestamp": "00:13",
+      "seconds": 13.08,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 99,
+      "timestamp": "00:13",
+      "seconds": 13.21,
+      "classification": "Shooting",
+      "confidence": 79.7
+    },
+    {
+      "id": 100,
+      "timestamp": "00:13",
+      "seconds": 13.35,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 101,
+      "timestamp": "00:13",
+      "seconds": 13.48,
+      "classification": "Robbery",
+      "confidence": 84.1
+    },
+    {
+      "id": 102,
+      "timestamp": "00:13",
+      "seconds": 13.61,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 103,
+      "timestamp": "00:13",
+      "seconds": 13.75,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 104,
+      "timestamp": "00:13",
+      "seconds": 13.88,
+      "classification": "Robbery",
+      "confidence": 88.1
+    },
+    {
+      "id": 105,
+      "timestamp": "00:14",
+      "seconds": 14.01,
+      "classification": "Robbery",
+      "confidence": 83.5
+    },
+    {
+      "id": 106,
+      "timestamp": "00:14",
+      "seconds": 14.15,
+      "classification": "Robbery",
+      "confidence": 93.9
+    },
+    {
+      "id": 107,
+      "timestamp": "00:14",
+      "seconds": 14.28,
+      "classification": "Shooting",
+      "confidence": 93.2
+    },
+    {
+      "id": 108,
+      "timestamp": "00:14",
+      "seconds": 14.41,
+      "classification": "Robbery",
+      "confidence": 91.3
+    },
+    {
+      "id": 109,
+      "timestamp": "00:14",
+      "seconds": 14.55,
+      "classification": "Robbery",
+      "confidence": 93.1
+    },
+    {
+      "id": 110,
+      "timestamp": "00:14",
+      "seconds": 14.68,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 111,
+      "timestamp": "00:14",
+      "seconds": 14.81,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 112,
+      "timestamp": "00:14",
+      "seconds": 14.95,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 113,
+      "timestamp": "00:15",
+      "seconds": 15.08,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 114,
+      "timestamp": "00:15",
+      "seconds": 15.22,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 115,
+      "timestamp": "00:15",
+      "seconds": 15.35,
+      "classification": "Robbery",
+      "confidence": 95.0
+    },
+    {
+      "id": 116,
+      "timestamp": "00:15",
+      "seconds": 15.48,
+      "classification": "Robbery",
+      "confidence": 94.9
+    },
+    {
+      "id": 117,
+      "timestamp": "00:15",
+      "seconds": 15.62,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 118,
+      "timestamp": "00:15",
+      "seconds": 15.75,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 119,
+      "timestamp": "00:15",
+      "seconds": 15.88,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 120,
+      "timestamp": "00:16",
+      "seconds": 16.02,
+      "classification": "Shooting",
+      "confidence": 78.2
+    },
+    {
+      "id": 121,
+      "timestamp": "00:16",
+      "seconds": 16.15,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 122,
+      "timestamp": "00:16",
+      "seconds": 16.28,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 123,
+      "timestamp": "00:16",
+      "seconds": 16.42,
+      "classification": "Shooting",
+      "confidence": 79.2
+    },
+    {
+      "id": 124,
+      "timestamp": "00:16",
+      "seconds": 16.55,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 125,
+      "timestamp": "00:16",
+      "seconds": 16.68,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 126,
+      "timestamp": "00:16",
+      "seconds": 16.82,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 127,
+      "timestamp": "00:16",
+      "seconds": 16.95,
+      "classification": "Robbery",
+      "confidence": 75.7
+    },
+    {
+      "id": 128,
+      "timestamp": "00:17",
+      "seconds": 17.08,
+      "classification": "Robbery",
+      "confidence": 91.0
+    },
+    {
+      "id": 129,
+      "timestamp": "00:17",
+      "seconds": 17.22,
+      "classification": "Shooting",
+      "confidence": 95.0
+    },
+    {
+      "id": 130,
+      "timestamp": "00:17",
+      "seconds": 17.35,
+      "classification": "Shooting",
+      "confidence": 88.5
+    },
+    {
+      "id": 131,
+      "timestamp": "00:17",
+      "seconds": 17.48,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 132,
+      "timestamp": "00:17",
+      "seconds": 17.62,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 133,
+      "timestamp": "00:17",
+      "seconds": 17.75,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 134,
+      "timestamp": "00:17",
+      "seconds": 17.88,
+      "classification": "Shooting",
+      "confidence": 83.3
+    },
+    {
+      "id": 135,
+      "timestamp": "00:18",
+      "seconds": 18.02,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 136,
+      "timestamp": "00:18",
+      "seconds": 18.15,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 137,
+      "timestamp": "00:18",
+      "seconds": 18.28,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 138,
+      "timestamp": "00:18",
+      "seconds": 18.42,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 139,
+      "timestamp": "00:18",
+      "seconds": 18.55,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 140,
+      "timestamp": "00:18",
+      "seconds": 18.69,
+      "classification": "Robbery",
+      "confidence": 79.6
+    },
+    {
+      "id": 141,
+      "timestamp": "00:18",
+      "seconds": 18.82,
+      "classification": "Shooting",
+      "confidence": 86.3
+    },
+    {
+      "id": 142,
+      "timestamp": "00:18",
+      "seconds": 18.95,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 143,
+      "timestamp": "00:19",
+      "seconds": 19.09,
+      "classification": "Shooting",
+      "confidence": 85.7
+    },
+    {
+      "id": 144,
+      "timestamp": "00:19",
+      "seconds": 19.22,
+      "classification": "Shooting",
+      "confidence": 76.8
+    },
+    {
+      "id": 145,
+      "timestamp": "00:19",
+      "seconds": 19.35,
+      "classification": "Shooting",
+      "confidence": 86.3
+    },
+    {
+      "id": 146,
+      "timestamp": "00:19",
+      "seconds": 19.49,
+      "classification": "Robbery",
+      "confidence": 77.4
+    },
+    {
+      "id": 147,
+      "timestamp": "00:19",
+      "seconds": 19.62,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 148,
+      "timestamp": "00:19",
+      "seconds": 19.75,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 149,
+      "timestamp": "00:19",
+      "seconds": 19.89,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 150,
+      "timestamp": "00:20",
+      "seconds": 20.02,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 151,
+      "timestamp": "00:20",
+      "seconds": 20.15,
+      "classification": "Shooting",
+      "confidence": 75.0
+    },
+    {
+      "id": 152,
+      "timestamp": "00:20",
+      "seconds": 20.29,
+      "classification": "Robbery",
+      "confidence": 75.0
+    },
+    {
+      "id": 153,
+      "timestamp": "00:20",
+      "seconds": 20.42,
+      "classification": "Robbery",
+      "confidence": 75.0
+    }
+  ]
+}

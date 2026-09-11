@@ -1,0 +1,15 @@
+{
+  "name": "crime-ai-suite",
+  "version": "2.0.0",
+  "description": "Aerial Surveillance & Crime Detection Suite with React + Vite Frontend & Python Monoserver",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:server": "python run.py",
+    "start": "cd frontend && npm run build && cd .. && python run.py"
+  },
+  "keywords": ["aerial-surveillance", "crime-detection", "yolo", "pytorch", "react", "vite", "monoserver"],
+  "author": "Antigravity",
+  "license": "MIT"
+}

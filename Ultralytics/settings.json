@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.7",
+  "datasets_dir": "/Users/ranaasad/ML_Project/datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "fa2e34c399c9b832885fc0e220d8c131d829fe9087b28ddd19dea1f3fbd78ca3",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
