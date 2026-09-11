@@ -2,9 +2,10 @@ import os
 import sys
 import socket
 from pathlib import Path
+from flask import Flask, send_from_directory, jsonify, Response, request
 try:
     from flask_cors import CORS
-except ImportError:
+except (ImportError, TypeError):
     CORS = None
 
 # Initialize configuration and sys.path
