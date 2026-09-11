@@ -1,5 +1,5 @@
 """
-Internship Progress Report Generator (July 15, 2026 – September 11, 2026)
+Internship Progress Report Generator (July 15, 2026 – September 12, 2026)
 Candidate: Iqra Rani (Employee ID: NEU000047)
 Department: Software Development
 Manager: Tayyaba Hussain
@@ -347,7 +347,7 @@ add_table(
         ["Manager / Supervisor", "Tayyaba Hussain (Project Lead)"],
         ["Host Organization", "Neuronix Technologies"],
         ["Official Email", "iqra.rani@neuronixtech.net | Contact: 03700752043"],
-        ["Internship Tenure", "July 15, 2026 – September 11, 2026 (9 Weeks / 38 Working Days)"],
+        ["Internship Tenure", "July 15, 2026 – September 12, 2026 (9 Weeks / 39 Working Days)"],
         ["Reporting Status", "Completed / Full Technical Milestones, Modernization & Cloud Production Deployment"],
         ["Key Handover Deliverables", "Live Vercel React 18 SPA, Cloudflare GPU Tunnel, Dual GitHub Repositories, Project Technical Report ('Project_Report_Crime_Detection_System-1'), & GUI Video ('project gui.mov')"]
     ],
@@ -371,8 +371,8 @@ add_table(
     ["Section #", "Section Title", "Key Content Covered"],
     [
         ["1", "Intern Introduction & Project Context", "Candidate profile overview, credentials, technical competencies, and assigned project scope"],
-        ["2", "Phase-wise Technical Work Summary", "Phases 1 to 8: onboarding, ML theory, cloud AI, dataset engineering, bias resolution, 2-stage AI, React 18 modernization, and Vercel/Cloudflare deployment"],
-        ["3", "Comprehensive Day-by-Day Work Log (Mon–Fri)", "Detailed daily technical log table covering all working days (Days 1 to 38) across Weeks 1 to 9, including leaves and holidays (till September 11)"],
+        ["2", "Phase-wise Technical Work Summary", "Phases 1 to 9: onboarding, ML theory, cloud AI, dataset engineering, bias resolution, 2-stage AI, React 18 modernization, Vercel/Cloudflare deployment, and final handover"],
+        ["3", "Comprehensive Day-by-Day Work Log (Mon–Sat)", "Detailed daily technical log table covering all working days (Days 1 to 39) across Weeks 1 to 9, including leaves and holidays (till September 12)"],
         ["3.1", "  • Week 1: Onboarding, Environment & Tooling", "Daily log table: workstation setup, macOS MPS acceleration, Git/GitHub, Docker, and approved sick leave (Jul 17)"],
         ["3.2", "  • Week 2: ML Foundations & Video Classification", "Daily log table: ML evaluation metrics, CNN backbones, R(2+1)D convolution factorization, YOLOv8 tracking"],
         ["3.3", "  • Week 3: Cloud AI Platforms (Colab & Kaggle) & Remote Training", "Daily log table: Cloud GPU runtimes (NVIDIA T4), Kaggle API & dataset ingestion, Colab drive mounting, remote PyTorch workflows"],
@@ -381,7 +381,7 @@ add_table(
         ["3.6", "  • Week 6: 2-Stage Hybrid AI Architecture", "Daily log table: Pivot to 2-stage framework, drone person detector, specialized weapon detector, ByteTrack, latency benchmark"],
         ["3.7", "  • Week 7: Preprocessing, Zoom & Super-Resolution", "Daily log table: crime_aerial_augmented_best1.pth, 5-mode preprocessor, SceneQualityMetrics, FSRCNN 3x zoom"],
         ["3.8", "  • Week 8: Strict Gating & Flask Web Portal", "Daily log table: False shooting alarm fix, strict 6-rule gating, tensor ghost fix, Flask backend, MJPEG live stream & ngrok remote testing"],
-        ["3.9", "  • Week 9: React 18 SPA, Vercel & Cloudflare Tunnel", "Daily log table: React 18 + Vite migration, dynamic incident chart, monoserver split, Vercel cloud deploy, Cloudflare GPU tunnel & final handover"],
+        ["3.9", "  • Week 9: React 18 SPA, Cloud Deployment & Handover", "Daily log table: React 18 + Vite migration, dynamic incident chart, monoserver split, Vercel cloud deploy, Cloudflare GPU tunnel & final handover"],
         ["4", "Three AI Models Specification & Handover Deliverables", "Architecture specs table (Crime 3D CNN, Drone Person YOLO, Weapon YOLO), gating matrix, live deployment links, and formal deliverables"],
         ["5", "Conclusion & Supervisory Verification Sign-Off", "Professional competencies gained, formal performance evaluation sheet, and supervisory sign-off"]
     ],
@@ -455,17 +455,20 @@ add_body("Architected 2-Stage Hybrid AI framework coupling spatial YOLOv8 detect
 add_heading_2("Phase 7: Strict Evidence Gating & Video HUD Polish")
 add_body("Engineered strict 6-rule Multi-Modal Crime Decision Engine achieving 0% false shooting alarms, enforced 95% confidence cap, streamlined top surveillance HUD overlays, and verified automated evidence extraction.")
 
-add_heading_2("Phase 8: Enterprise Modernization, React 18 SPA Migration & Cloud Production Deployment")
+add_heading_2("Phase 8: Enterprise Modernization, React 18 SPA Migration & Cloud Deployment")
 add_body("Transitioned system from monolithic rendering to a decoupled microservices architecture. Constructed a component-driven React 18 + Vite + TypeScript frontend with synchronized dual-view video playback and pure dynamic audit analytics. Decoupled into two GitHub repositories (`-crime-ai-frontend` and `crime-ai-backend`), deployed frontend live to Vercel (https://aerial-crime-detector.vercel.app), and bridged Apple Silicon MPS GPU acceleration to the web via Cloudflare Tunnel (https://reserved-inf-pod-trends.trycloudflare.com).")
 
+add_heading_2("Phase 9: Final Benchmark Validation, Supervisory Demonstration & Handover")
+add_body("Conducted end-to-end latency profiling across remote internet connections, validated zero false shooting alarms on normal test feeds, and conducted formal project demonstration to Manager Tayyaba Hussain and Neuronix Technologies leadership. Completed formal handover of all technical assets, live deployments, model checkpoints, and documentation.")
+
 
 # ══════════════════════════════════════════════════════════════════════════════
-# SECTION 3: COMPLETE DAY-BY-DAY (MONDAY TO FRIDAY) DETAILED WORK LOG
+# SECTION 3: COMPLETE DAY-BY-DAY (MONDAY TO SATURDAY) DETAILED WORK LOG
 # ══════════════════════════════════════════════════════════════════════════════
-add_heading_1("3. Comprehensive Day-by-Day Detailed Work Log (Monday to Friday)", page_break_before=False)
+add_heading_1("3. Comprehensive Day-by-Day Detailed Work Log (Monday to Saturday)", page_break_before=False)
 add_body(
     "The following section provides the exact day-by-day record of all engineering activities, research breakthroughs, "
-    "code implementations, bug resolutions, and testing milestones achieved across every working day from Monday through Friday across all 9 weeks."
+    "code implementations, bug resolutions, and testing milestones achieved across all 39 working days across all 9 weeks (till September 12, 2026)."
 )
 
 # ─── WEEK 1 (15 Jul – 17 Jul 2026) ───
@@ -832,8 +835,8 @@ add_log_table([
     )
 ])
 
-# ─── WEEK 9 (07 Sep – 11 Sep 2026) ───
-add_heading_2("3.9 Week 9: Confidence Calibration, UI Polishing & Final Handover (07 Sep – 11 Sep 2026)")
+# ─── WEEK 9 (07 Sep – 12 Sep 2026) ───
+add_heading_2("3.9 Week 9: React 18 Modernization, Cloud Deployment & Handover (07 Sep – 12 Sep 2026)")
 add_log_table([
     (
         "Day 34",
@@ -857,34 +860,45 @@ add_log_table([
         "Day 36",
         "Wed, Sep 09, 2026",
         [
-            ("System Audit:", "Conducted comprehensive system verification on Apple MPS hardware; validated inference speed (1.47x real-time)."),
-            ("Batch Evaluation:", "Executed batch evaluation suite `evaluate_model_videos.py` across UCF-Crime and aerial test splits."),
-            ("Metrics Audit:", "Logged performance metrics: 89.3% accuracy on normal walking scenes and 0% false Shooting rate on unarmed scenes.")
+            ("System Audit:", "Conducted comprehensive system verification on Apple Silicon MPS hardware; validated spatio-temporal inference speed (1.47x real-time)."),
+            ("Bug Investigation:", "Diagnosed and resolved runtime `NameError: name 'crime_ratio' is not defined` bug in `video_inference1.py` by safely initializing decision variables."),
+            ("Chart Audit:", "Audited surveillance report visualization; discovered hardcoded robbery distribution values in the frontend audit log and formulated architectural migration plan."),
+            ("Batch Evaluation:", "Executed batch evaluation suite `evaluate_model_videos.py` across UCF-Crime and aerial test splits, logging 89.3% accuracy on walking scenes and 0% false shooting alarms.")
         ]
     ),
     (
         "Day 37",
         "Thu, Sep 10, 2026",
         [
-            ("Documentation:", "Authored automated DOCX project report generator `generate_project_report.py` using `python-docx`."),
-            ("System Specs:", "Formatted complete system architecture diagrams, model layer breakdowns, and Flask route tables."),
-            ("Audit Schema:", "Verified automated JSON forensic report schemas and evidence clip chain-of-custody metadata storage in `outputs/`.")
+            ("React 18 SPA Migration:", "Replaced legacy Jinja2 server templates with a component-driven React 18 + Vite + TypeScript + Tailwind CSS application featuring responsive layout and Lucide icons."),
+            ("Dual-View Video Player:", "Engineered synchronized dual-feed video player allowing side-by-side comparative playback of raw aerial surveillance feeds against AI-annotated crime detection streams."),
+            ("Dynamic Audit Analytics:", "Completely refactored the Incident Distribution Chart and Chronological Audit Log from static values into 100% dynamic calculations computed directly from live `window_audits`."),
+            ("Modular Monoserver:", "Architected modular Monoserver (`backend/monoserver.py`, `backend/config.py`, REST API blueprints in `backend/api/`) supporting videos, inference, live MJPEG feeds, reports, and settings."),
+            ("Dual-Repository Split:", "Decoupled codebase into two production GitHub repositories: Frontend (`3144011081/-crime-ai-frontend`) and Backend (`3144011081/crime-ai-backend`)."),
+            ("Documentation Generator:", "Authored automated DOCX project report generator `generate_project_report.py` using `python-docx` for comprehensive technical documentation.")
         ]
     ),
     (
         "Day 38",
         "Fri, Sep 11, 2026",
         [
-            ("React 18 SPA Migration:", "Modernized user interface from legacy Jinja2 templates into a responsive, component-driven React 18 + Vite + TypeScript + Tailwind CSS application featuring dark mode, Lucide icons, and live status badges."),
-            ("Dual-View Video Player:", "Engineered synchronized dual-feed video player allowing side-by-side comparison of raw aerial surveillance feeds against AI-annotated crime detection streams."),
-            ("Dynamic Audit Analytics:", "Completely refactored the Incident Distribution Chart and Chronological Audit Log from static values into 100% dynamic calculations computed directly from `window_audits` in the inference engine."),
-            ("Monoserver Architecture:", "Refactored backend into a modular Monoserver architecture (`backend/monoserver.py`, `backend/config.py`, REST API blueprints in `backend/api/`) supporting videos, inference, live MJPEG feeds, reports, and settings."),
-            ("Dual-Repository Split:", "Decoupled codebase into two production GitHub repositories: Frontend (`3144011081/-crime-ai-frontend`) and Backend (`3144011081/crime-ai-backend`)."),
-            ("Vercel Cloud Deployment:", "Deployed modern React frontend to Vercel global CDN with custom domain alias: `https://aerial-crime-detector.vercel.app`, configuring SPA rewrites and caching policies in `vercel.json`."),
+            ("Vercel Cloud Deployment:", "Configured and deployed modern React frontend to Vercel global CDN with custom domain alias: `https://aerial-crime-detector.vercel.app`, configuring SPA rewrites and caching policies in `vercel.json`."),
+            ("Cloud Containerization:", "Enhanced `Dockerfile` with dynamic `$PORT` binding, graceful checkpoint fallback in `models/crime_model.py`, lightweight PyTorch CPU wheels, and `/health` monitoring endpoints."),
+            ("Cloud Tier Evaluation:", "Evaluated and benchmarked cloud hosting environments (Render, Koyeb, Hugging Face Spaces compute constraints) for machine learning suitability."),
             ("Cloudflare GPU Tunnel:", "Deployed Cloudflare Quick Tunnel (`cloudflared`) bridging local Apple Silicon Metal Performance Shaders (MPS) hardware acceleration to the public internet (`https://reserved-inf-pod-trends.trycloudflare.com`), enabling zero-cost, zero-card, full-speed remote inference."),
-            ("Cloud Containerization:", "Enhanced `Dockerfile` with lightweight PyTorch CPU wheels and graceful checkpoint fallback to support deployment across multi-cloud environments (Render, Koyeb, Spaces)."),
-            ("Final Demo & Handover:", "Conducted comprehensive final project presentation to Manager Tayyaba Hussain, presenting live Vercel web application, Cloudflare GPU tunnel, 2-stage multi-modal AI gating, and formally delivering the Project Technical Report and GUI demonstration video."),
-            ("Tenure Conclusion:", "Successfully concluded the 9-week engineering internship tenure at Neuronix Technologies (September 11, 2026).")
+            ("End-to-End Integration Testing:", "Conducted end-to-end live testing from the public Vercel domain; validated real-time video listing, remote spatio-temporal inference execution, and dynamic report downloads.")
+        ]
+    ),
+    (
+        "Day 39",
+        "Sat, Sep 12, 2026",
+        [
+            ("Latency Benchmarking:", "Conducted comprehensive latency benchmarks across remote internet connections, validating real-time FPS throughput and WebSocket/MJPEG stream stability under network load."),
+            ("Final Demo:", "Conducted final project demonstration to Manager Tayyaba Hussain and Neuronix Technologies engineering leadership, presenting full 2-stage AI detection, 0% false shooting alarms, adaptive zoom, and live Vercel web application."),
+            ("Project Report Handover:", "Formally submitted and handed over the comprehensive Project Technical Report 'Project_Report_Crime_Detection_System-1' to Manager Tayyaba Hussain, documenting complete system architecture, dataset engineering, multi-modal gating, and empirical benchmarks."),
+            ("GUI & Video Handover:", "Delivered the complete project GUI and functioning demonstration video 'project gui.mov' to Manager Tayyaba Hussain, showcasing all web dashboard controls, real-time live streaming, and full operational system functioning."),
+            ("Deliverable Handover:", "Delivered production-ready model checkpoints (`crime_aerial_augmented_best1.pth`, `drone_person_detector_best.pt`, `weapon_detector_best.pt`), live Vercel web app, Cloudflare GPU tunnel, and dual GitHub repositories."),
+            ("Tenure Conclusion:", "Successfully concluded the 9-week engineering internship tenure at Neuronix Technologies (September 12, 2026).")
         ]
     )
 ])
@@ -925,7 +939,7 @@ add_table(
 
 add_heading_2("4.2 Formal Project Handover Deliverables")
 add_body(
-    "On Friday, September 11, 2026, the formal engineering handover was successfully conducted with Manager Tayyaba Hussain. "
+    "On Saturday, September 12, 2026, the formal engineering handover was successfully conducted with Manager Tayyaba Hussain. "
     "The primary project handover deliverables submitted include:"
 )
 add_table(
@@ -975,9 +989,9 @@ add_table(
         ["Full Name", "Iqra Rani", "Tayyaba Hussain"],
         ["Employee ID / Designation", "NEU000047 | Intern (Software Dev)", "Project Lead / Manager (Software Dev)"],
         ["Organization", "Neuronix Technologies", "Neuronix Technologies"],
-        ["Technical Milestone Verdict", "All 9 Weeks Completed / Milestones Achieved", "Verified & Approved / Criteria Fully Satisfied"],
+        ["Technical Milestone Verdict", "All 9 Weeks Completed (39 Working Days) / Milestones Achieved", "Verified & Approved / Criteria Fully Satisfied"],
         ["Deliverables Received", "Live Vercel App, Cloudflare Tunnel, Dual Repos, Project Report, & GUI Video", "Confirmed Received & Validated in Working Order"],
-        ["Signature & Date", "_______________________  [Sep 11, 2026]", "_______________________  [Sep 11, 2026]"]
+        ["Signature & Date", "_______________________  [Sep 12, 2026]", "_______________________  [Sep 12, 2026]"]
     ],
     col_widths=[2.1, 2.2, 2.2]
 )
