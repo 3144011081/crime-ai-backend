@@ -1567,6 +1567,11 @@ def process_video(video_path, progress_callback=None):
     if progress_callback:
         progress_callback(0.05, f"Opening video stream: {video_path.name}...")
 
+    # Safe defaults
+    crime_ratio = 0.0
+    total_crime_prob = 0.0
+    is_crime = False
+
     print("\nOpening video:")
     print(video_path)
 
