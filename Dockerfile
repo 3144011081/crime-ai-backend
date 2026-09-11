@@ -31,4 +31,4 @@ COPY . .
 EXPOSE 5005
 
 # Run monoserver
-CMD ["python", "run.py", "--host", "0.0.0.0", "--port", "5005"]
+CMD ["sh", "-c", "python run.py --host 0.0.0.0 --port ${PORT:-5005}"]

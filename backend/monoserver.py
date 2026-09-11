@@ -28,16 +28,31 @@ def create_app():
     cors_env = os.environ.get("CORS_ORIGINS", "*")
     cors_origins = [o.strip() for o in cors_env.split(",") if o.strip()] if "," in cors_env else cors_env
     if CORS:
-        CORS(app, resources={r"/api/*": {"origins": cors_origins}}, supports_credentials=True)
+        CORS(app, resources={r"/*": {"origins": cors_origins}}, supports_credentials=True)
     else:
+        @app.before_request
+        def handle_preflight():
+            if request.method == "OPTIONS":
+                response = Response()
+                origin = request.headers.get("Origin", "*")
+                response.headers["Access-Control-Allow-Origin"] = origin
+                response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+                response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, X-Requested-With"
+                response.headers["Access-Control-Allow-Credentials"] = "true"
+                return response
+
         @app.after_request
         def add_cors_headers(response):
             origin = request.headers.get("Origin", "*")
             response.headers["Access-Control-Allow-Origin"] = origin
             response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
-            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, X-Requested-With"
             response.headers["Access-Control-Allow-Credentials"] = "true"
             return response
+
+    @app.route("/health")
+    def health_check():
+        return jsonify({"status": "ok", "service": "crime-ai-backend"}), 200
 
     # Register REST API blueprint
     app.register_blueprint(api_bp)
