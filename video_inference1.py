@@ -1815,6 +1815,7 @@ def process_video(video_path, progress_callback=None):
     top_crime_val = top_crime_conf.item()
 
     crime_results = [r for r in results if r["label"] != "Normal" and r["confidence"] >= CRIME_THRESHOLD]
+    crime_ratio = len(crime_results) / max(len(results), 1)
     total_crime_prob = 1.0 - normal_prob
     is_crime = (crime_ratio >= 0.15) or (total_crime_prob >= 0.40 and total_crime_prob >= normal_prob)
 
