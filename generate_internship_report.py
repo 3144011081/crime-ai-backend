@@ -348,8 +348,8 @@ add_table(
         ["Host Organization", "Neuronix Technologies"],
         ["Official Email", "iqra.rani@neuronixtech.net | Contact: 03700752043"],
         ["Internship Tenure", "July 15, 2026 – September 11, 2026 (9 Weeks / 38 Working Days)"],
-        ["Reporting Status", "Completed / Full Technical Milestones & Handover Consolidation"],
-        ["Key Handover Deliverables", "Project Technical Report ('Project_Report_Crime_Detection_System-1') & GUI Video ('project gui.mov')"]
+        ["Reporting Status", "Completed / Full Technical Milestones, Modernization & Cloud Production Deployment"],
+        ["Key Handover Deliverables", "Live Vercel React 18 SPA, Cloudflare GPU Tunnel, Dual GitHub Repositories, Project Technical Report ('Project_Report_Crime_Detection_System-1'), & GUI Video ('project gui.mov')"]
     ],
     col_widths=[2.4, 4.1]
 )
@@ -371,7 +371,7 @@ add_table(
     ["Section #", "Section Title", "Key Content Covered"],
     [
         ["1", "Intern Introduction & Project Context", "Candidate profile overview, credentials, technical competencies, and assigned project scope"],
-        ["2", "Phase-wise Technical Work Summary", "Phases 1 to 7 summarizing onboarding, ML theory, cloud AI, dataset engineering, bias resolution, 2-stage AI, web app, and final handover"],
+        ["2", "Phase-wise Technical Work Summary", "Phases 1 to 8: onboarding, ML theory, cloud AI, dataset engineering, bias resolution, 2-stage AI, React 18 modernization, and Vercel/Cloudflare deployment"],
         ["3", "Comprehensive Day-by-Day Work Log (Mon–Fri)", "Detailed daily technical log table covering all working days (Days 1 to 38) across Weeks 1 to 9, including leaves and holidays (till September 11)"],
         ["3.1", "  • Week 1: Onboarding, Environment & Tooling", "Daily log table: workstation setup, macOS MPS acceleration, Git/GitHub, Docker, and approved sick leave (Jul 17)"],
         ["3.2", "  • Week 2: ML Foundations & Video Classification", "Daily log table: ML evaluation metrics, CNN backbones, R(2+1)D convolution factorization, YOLOv8 tracking"],
@@ -381,8 +381,8 @@ add_table(
         ["3.6", "  • Week 6: 2-Stage Hybrid AI Architecture", "Daily log table: Pivot to 2-stage framework, drone person detector, specialized weapon detector, ByteTrack, latency benchmark"],
         ["3.7", "  • Week 7: Preprocessing, Zoom & Super-Resolution", "Daily log table: crime_aerial_augmented_best1.pth, 5-mode preprocessor, SceneQualityMetrics, FSRCNN 3x zoom"],
         ["3.8", "  • Week 8: Strict Gating & Flask Web Portal", "Daily log table: False shooting alarm fix, strict 6-rule gating, tensor ghost fix, Flask backend, MJPEG live stream & ngrok remote testing"],
-        ["3.9", "  • Week 9: Confidence Calibration, UI Polish & Final Handover", "Daily log table: 95% confidence cap, dashboard Crime Alert Boxes, HUD polish, batch video evaluation & final handover (Project Report & GUI Video) (till Sep 11)"],
-        ["4", "Three AI Models Specification & Handover Deliverables", "Architecture specs table (Crime 3D CNN, Drone Person YOLO, Weapon YOLO), gating matrix, and formal handover deliverables (Project Report & GUI Video)"],
+        ["3.9", "  • Week 9: React 18 SPA, Vercel & Cloudflare Tunnel", "Daily log table: React 18 + Vite migration, dynamic incident chart, monoserver split, Vercel cloud deploy, Cloudflare GPU tunnel & final handover"],
+        ["4", "Three AI Models Specification & Handover Deliverables", "Architecture specs table (Crime 3D CNN, Drone Person YOLO, Weapon YOLO), gating matrix, live deployment links, and formal deliverables"],
         ["5", "Conclusion & Supervisory Verification Sign-Off", "Professional competencies gained, formal performance evaluation sheet, and supervisory sign-off"]
     ],
     col_widths=[1.0, 2.6, 2.9],
@@ -409,7 +409,8 @@ add_body(
     "Throughout the project lifecycle, I specialized in PyTorch development (leveraging Apple Silicon Metal Performance "
     "Shaders - MPS and CUDA), Ultralytics YOLOv8 object detection architectures, ByteTrack persistent multi-object tracking, 3D Convolutional "
     "Neural Networks (R(2+1)D-18), image enhancement algorithms (CLAHE, dark channel dehazing, AGCWD gamma correction, FSRCNN super-resolution), "
-    "edge tensor optimization (FP16 half-precision), and production web frameworks (Flask, Jinja2)."
+    "edge tensor optimization (FP16 half-precision), modular monoserver architecture (Flask REST blueprints), modern Single Page Applications (React 18, Vite, TypeScript, Tailwind CSS), "
+    "cloud continuous delivery (Vercel), and hardware-accelerated remote inference pipelines (Cloudflare Tunnels)."
 )
 
 add_heading_2("1.2 Assigned Project Scope & Core Responsibilities")
@@ -423,7 +424,8 @@ add_bullet("Diagnosing and successfully resolving complex machine learning class
 add_bullet("Integrating spatial object detection (Drone Person Detector + Specialized Weapon Detector) to construct a robust 2-Stage Hybrid AI architecture.", "Multi-Model Fusion: ")
 add_bullet("Developing a strict 6-rule Multi-Modal Crime Decision Engine (`fuse_multimodal_crime_decision`) to eliminate false shooting alerts on normal scenes.", "Decision Engine: ")
 add_bullet("Building an Adaptive Video Acquisition system (`adaptive_acquisition.py`) with multi-scale ROI zoom cropping and FSRCNN 3x super-resolution.", "Adaptive Acquisition: ")
-add_bullet("Deploying a full production Flask web application (`app.py`) featuring real-time MJPEG detection streaming, dynamic crime alert dashboards, and automated JSON forensic audit reports.", "Full-Stack Deployment: ")
+add_bullet("Architecting a modular Python monoserver backend (`backend/monoserver.py`) and decoupling into a modern React 18 + Vite SPA frontend with synchronized dual-view video playback.", "Modern Full-Stack: ")
+add_bullet("Deploying production web application to Vercel (https://aerial-crime-detector.vercel.app) and bridging Apple Silicon MPS GPU acceleration via Cloudflare Quick Tunnel for global access.", "Cloud Deployment: ")
 add_bullet("Benchmarking edge latency, memory profiles, and multi-altitude drone viewpoints for robust aerial surveillance readiness.", "Edge Optimization: ")
 
 
@@ -450,8 +452,11 @@ add_body("Diagnosed Robbery and Shooting over-prediction biases; addressed featu
 add_heading_2("Phase 6: 2-Stage Multi-Modal Pipeline & Adaptive Zoom")
 add_body("Architected 2-Stage Hybrid AI framework coupling spatial YOLOv8 detectors (drone person, weapons, vehicles) with 3D CNN temporal classification and FSRCNN 3x super-resolution adaptive zoom.")
 
-add_heading_2("Phase 7: Strict Evidence Gating, Flask App & Final Handover")
-add_body("Engineered strict 6-rule Multi-Modal Crime Decision Engine achieving 0% false shooting alarms, deployed production Flask web app with real-time MJPEG live streaming, and formally completed technical project handover to Manager Tayyaba Hussain with Project Technical Report ('Project_Report_Crime_Detection_System-1') and GUI demonstration video ('project gui.mov').")
+add_heading_2("Phase 7: Strict Evidence Gating & Video HUD Polish")
+add_body("Engineered strict 6-rule Multi-Modal Crime Decision Engine achieving 0% false shooting alarms, enforced 95% confidence cap, streamlined top surveillance HUD overlays, and verified automated evidence extraction.")
+
+add_heading_2("Phase 8: Enterprise Modernization, React 18 SPA Migration & Cloud Production Deployment")
+add_body("Transitioned system from monolithic rendering to a decoupled microservices architecture. Constructed a component-driven React 18 + Vite + TypeScript frontend with synchronized dual-view video playback and pure dynamic audit analytics. Decoupled into two GitHub repositories (`-crime-ai-frontend` and `crime-ai-backend`), deployed frontend live to Vercel (https://aerial-crime-detector.vercel.app), and bridged Apple Silicon MPS GPU acceleration to the web via Cloudflare Tunnel (https://reserved-inf-pod-trends.trycloudflare.com).")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -870,11 +875,16 @@ add_log_table([
         "Day 38",
         "Fri, Sep 11, 2026",
         [
-            ("Final Demo:", "Conducted final project demonstration to Manager Tayyaba Hussain and Neuronix Technologies engineering leadership, presenting full 2-stage AI detection, 0% false shooting alarms, adaptive zoom, and live MJPEG streaming."),
-            ("Project Report Handover:", "Formally submitted and handed over the comprehensive Project Technical Report 'Project_Report_Crime_Detection_System-1' to Manager Tayyaba Hussain, documenting complete system architecture, dataset engineering, multi-modal gating, and empirical benchmarks."),
-            ("GUI & Video Handover:", "Delivered the complete project GUI and functioning demonstration video 'project gui.mov' to Manager Tayyaba Hussain, showcasing all web dashboard controls, real-time live streaming, and full operational system functioning."),
-            ("Deliverable Handover:", "Delivered production-ready model checkpoints (`crime_aerial_augmented_best1.pth`, `drone_person_detector_best.pt`, `weapon_detector_best.pt`), JSON forensic audit schemas, and clean source code repository."),
-            ("Tenure Conclusion:", "Successfully concluded the engineering internship tenure at Neuronix Technologies (September 11, 2026).")
+            ("React 18 SPA Migration:", "Modernized user interface from legacy Jinja2 templates into a responsive, component-driven React 18 + Vite + TypeScript + Tailwind CSS application featuring dark mode, Lucide icons, and live status badges."),
+            ("Dual-View Video Player:", "Engineered synchronized dual-feed video player allowing side-by-side comparison of raw aerial surveillance feeds against AI-annotated crime detection streams."),
+            ("Dynamic Audit Analytics:", "Completely refactored the Incident Distribution Chart and Chronological Audit Log from static values into 100% dynamic calculations computed directly from `window_audits` in the inference engine."),
+            ("Monoserver Architecture:", "Refactored backend into a modular Monoserver architecture (`backend/monoserver.py`, `backend/config.py`, REST API blueprints in `backend/api/`) supporting videos, inference, live MJPEG feeds, reports, and settings."),
+            ("Dual-Repository Split:", "Decoupled codebase into two production GitHub repositories: Frontend (`3144011081/-crime-ai-frontend`) and Backend (`3144011081/crime-ai-backend`)."),
+            ("Vercel Cloud Deployment:", "Deployed modern React frontend to Vercel global CDN with custom domain alias: `https://aerial-crime-detector.vercel.app`, configuring SPA rewrites and caching policies in `vercel.json`."),
+            ("Cloudflare GPU Tunnel:", "Deployed Cloudflare Quick Tunnel (`cloudflared`) bridging local Apple Silicon Metal Performance Shaders (MPS) hardware acceleration to the public internet (`https://reserved-inf-pod-trends.trycloudflare.com`), enabling zero-cost, zero-card, full-speed remote inference."),
+            ("Cloud Containerization:", "Enhanced `Dockerfile` with lightweight PyTorch CPU wheels and graceful checkpoint fallback to support deployment across multi-cloud environments (Render, Koyeb, Spaces)."),
+            ("Final Demo & Handover:", "Conducted comprehensive final project presentation to Manager Tayyaba Hussain, presenting live Vercel web application, Cloudflare GPU tunnel, 2-stage multi-modal AI gating, and formally delivering the Project Technical Report and GUI demonstration video."),
+            ("Tenure Conclusion:", "Successfully concluded the 9-week engineering internship tenure at Neuronix Technologies (September 11, 2026).")
         ]
     )
 ])
@@ -921,14 +931,18 @@ add_body(
 add_table(
     ["Deliverable Item", "File Name / Reference", "Description & Scope Handed Over"],
     [
+        ["Live Production Web App", "https://aerial-crime-detector.vercel.app", "Production-grade React 18 + Vite + TypeScript SPA deployed live on Vercel with global CDN, dual video players, real-time audit logs, and dynamic analytics."],
+        ["Hardware-Accelerated Tunnel", "https://reserved-inf-pod-trends.trycloudflare.com", "Cloudflare Quick Tunnel bridging Apple Silicon MPS (Metal Performance Shaders) GPU acceleration to the web for zero-cost, high-speed remote video inference."],
+        ["Frontend Git Repository", "https://github.com/3144011081/-crime-ai-frontend", "Complete modern frontend codebase with TypeScript definitions, Tailwind styling, and Vercel build configuration."],
+        ["Backend Git Repository", "https://github.com/3144011081/crime-ai-backend", "Complete Python Monoserver repository with REST API blueprints, multi-stage Dockerfile, and cloud deployment configs."],
         ["Project Technical Report", "Project_Report_Crime_Detection_System-1", "Comprehensive technical report handed over to Manager Tayyaba Hussain covering system design, 3D CNN & YOLOv8 architectures, aerial domain augmentation, strict 6-rule gating, and empirical benchmark evaluations."],
         ["Project GUI & Functioning Video", "project gui.mov", "High-definition video demonstration exhibiting all GUI features, web dashboard controls, real-time MJPEG live detection streaming, evidence clip extraction, and full end-to-end system functioning."],
         ["Crime Classification Model", "crime_aerial_augmented_best1.pth (358 MB)", "Production-ready 3D CNN (R(2+1)D-18) checkpoint fine-tuned on aerial-augmented surveillance data with calibrated Softmax temperature scaling."],
         ["Drone Person Detection Model", "drone_person_detector_best.pt (18.3 MB)", "Specialized YOLOv8 aerial detector checkpoint trained for high-altitude nadir and oblique human silhouette localization with ByteTrack trajectory tracking."],
         ["Specialized Weapon Detection Model", "weapon_detector_best.pt (18.3 MB)", "Dedicated YOLOv8 detector trained for localized firearm, knife/blade, and explosive identification for physical evidence gating."],
-        ["Web Application & Inference Suite", "Flask App (`app.py`), Templates & Engine (`video_inference1.py`)", "Complete production web interface, responsive dashboard templates, live video inference pipeline, and automated JSON forensic audit logger."]
+        ["Inference Suite & Forensic Schemas", "Monoserver (`backend/`), Engine (`video_inference1.py`)", "Complete inference pipeline, multi-format forensic reports (JSON, DOCX), and evidence clip chain-of-custody logging."]
     ],
-    col_widths=[1.8, 2.0, 3.2]
+    col_widths=[1.7, 2.1, 3.2]
 )
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -938,19 +952,20 @@ add_heading_1("5. Conclusion & Supervisory Verification Sign-Off", page_break_be
 add_body(
     "The engineering tenure at Neuronix Technologies under the mentorship and supervision of Tayyaba Hussain provided comprehensive "
     "hands-on experience spanning computer vision research, deep learning model architecture design, addressing real-world class imbalance, "
-    "multi-modal reasoning engine development, edge optimization, and full-stack Flask web application deployment. The key professional outcomes achieved include:"
+    "multi-modal reasoning engine development, edge optimization, modern React 18 frontend engineering, and cloud deployment. The key professional outcomes achieved include:"
 )
 add_bullet("Mastery of spatio-temporal deep learning architectures (R(2+1)D, 3D convolutions, sliding window inference).", "Deep Learning: ")
 add_bullet("Expertise in YOLOv8 fine-tuning, multi-object tracking (ByteTrack), and multi-detector orchestration.", "Computer Vision: ")
 add_bullet("Designing domain adaptation strategies to successfully bridge ground-level CCTV data to aerial drone perspectives.", "Domain Adaptation: ")
 add_bullet("Eliminating machine learning bias and hallucinations through strict multi-modal physical evidence gating.", "Bias Resolution: ")
 add_bullet("Leveraging cloud GPU platforms (Google Colab, Kaggle) for rapid dataset loading, distributed experimentation, and high-performance PyTorch training.", "Cloud AI & Training: ")
-add_bullet("Deploying production-grade web applications with real-time video streaming, automated evidence generation, and audit reporting.", "Software Engineering: ")
+add_bullet("Architecting decoupled full-stack systems: React 18 + Vite SPA, Python Monoserver REST APIs, and Vercel cloud continuous deployment.", "Modern Web Architecture: ")
+add_bullet("Bridging Apple Silicon Metal Performance Shaders (MPS) hardware acceleration to global web clients via Cloudflare Quick Tunnels.", "Edge & Hybrid Cloud: ")
 
 add_heading_2("5.1 Formal Supervisory Verification & Sign-Off")
 add_body(
-    "This progress report and all associated project deliverables (including technical documentation, source repository, "
-    "and model checkpoints) have been reviewed and approved by the assigned project supervisor:"
+    "This progress report and all associated project deliverables (including live cloud deployments, technical documentation, "
+    "source repositories, and model checkpoints) have been reviewed and approved by the assigned project supervisor:"
 )
 
 # Formal Sign-off Sheet Table
@@ -961,7 +976,7 @@ add_table(
         ["Employee ID / Designation", "NEU000047 | Intern (Software Dev)", "Project Lead / Manager (Software Dev)"],
         ["Organization", "Neuronix Technologies", "Neuronix Technologies"],
         ["Technical Milestone Verdict", "All 9 Weeks Completed / Milestones Achieved", "Verified & Approved / Criteria Fully Satisfied"],
-        ["Deliverables Received", "Project Report ('Project_Report_Crime_Detection_System-1') & GUI Video ('project gui.mov')", "Confirmed Received & Validated in Working Order"],
+        ["Deliverables Received", "Live Vercel App, Cloudflare Tunnel, Dual Repos, Project Report, & GUI Video", "Confirmed Received & Validated in Working Order"],
         ["Signature & Date", "_______________________  [Sep 11, 2026]", "_______________________  [Sep 11, 2026]"]
     ],
     col_widths=[2.1, 2.2, 2.2]
