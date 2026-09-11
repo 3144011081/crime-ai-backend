@@ -1,3 +1,13 @@
+---
+title: Crime AI Backend
+emoji: 🚁
+colorFrom: red
+colorTo: slate
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🚁 Aerial Crime Detection Suite
 
 An advanced AI-powered system for detecting suspicious activity in drone and aerial surveillance footage. The project combines multiple deep learning models to analyze video content in real-time:
