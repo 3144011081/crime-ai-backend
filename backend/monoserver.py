@@ -2,8 +2,10 @@ import os
 import sys
 import socket
 from pathlib import Path
-from flask import Flask, send_from_directory, jsonify, Response, request
-from flask_cors import CORS
+try:
+    from flask_cors import CORS
+except ImportError:
+    CORS = None
 
 # Initialize configuration and sys.path
 from backend.config import (
@@ -24,7 +26,17 @@ def create_app():
     # Enable Cross-Origin Resource Sharing (allows Vercel frontend to query backend API)
     cors_env = os.environ.get("CORS_ORIGINS", "*")
     cors_origins = [o.strip() for o in cors_env.split(",") if o.strip()] if "," in cors_env else cors_env
-    CORS(app, resources={r"/api/*": {"origins": cors_origins}}, supports_credentials=True)
+    if CORS:
+        CORS(app, resources={r"/api/*": {"origins": cors_origins}}, supports_credentials=True)
+    else:
+        @app.after_request
+        def add_cors_headers(response):
+            origin = request.headers.get("Origin", "*")
+            response.headers["Access-Control-Allow-Origin"] = origin
+            response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+            response.headers["Access-Control-Allow-Credentials"] = "true"
+            return response
 
     # Register REST API blueprint
     app.register_blueprint(api_bp)
